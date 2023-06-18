@@ -40,3 +40,6 @@ with open('data.csv', 'r', encoding='utf-8') as csvfile:
     next(reader)  # İlk satırı atla (başlık satırı)
     for row in reader:
         create_html_file(row)
+
+
+C:\\Users\\cem\\Documents\\GitHub\\gfgfg
