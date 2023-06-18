@@ -27,7 +27,7 @@ def create_sitemap(folder_path, website_url, max_links_per_sitemap):
         # URL'yi sitemap dosyasına ekle
         with open(sitemap_file_path, "a") as sitemap:
             sitemap.write('\t<url>\n')
-            sitemap.write(f'\t\t<loc>{website_url}/{file_path}</loc>\n')
+            sitemap.write(f'\t\t<loc>{website_url}/</loc>\n')
             sitemap.write('\t\t<lastmod>2023-06-18</lastmod>\n')
             sitemap.write('\t\t<changefreq>weekly</changefreq>\n')
             sitemap.write('\t\t<priority>1.0</priority>\n')
