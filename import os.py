@@ -24,13 +24,20 @@ def create_sitemap(folder_path, website_url, max_links_per_sitemap):
                 sitemap.write('<?xml version="1.0" encoding="UTF-8"?>\n')
                 sitemap.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
 
-            sitemap_count += 1
-
         # URL'yi sitemap dosyasına ekle
         with open(sitemap_file_path, "a") as sitemap:
-            sitemap.write(f'\t<url>\n\t\t<loc>{website_url}/{file_path}</loc>\n\t\t<lastmod></lastmod>\n\t\t<changefreq></changefreq>\n\t\t<priority>1.0</priority>\n\t</url>\n')
+            sitemap.write('\t<url>\n')
+            sitemap.write(f'\t\t<loc>{website_url}/{file_path}</loc>\n')
+            sitemap.write('\t\t<lastmod>2023-06-18</lastmod>\n')
+            sitemap.write('\t\t<changefreq>weekly</changefreq>\n')
+            sitemap.write('\t\t<priority>1.0</priority>\n')
+            sitemap.write('\t</url>\n')
 
         link_count += 1
+
+        # Sitemap dosyasını farklı bir isimle kaydet
+        if link_count % max_links_per_sitemap == 0:
+            sitemap_count += 1
 
     # Son sitemap dosyasının sonunu kapatın
     with open(sitemap_file_path, "a") as sitemap:
@@ -39,6 +46,6 @@ def create_sitemap(folder_path, website_url, max_links_per_sitemap):
 # Örnek kullanım
 folder_path = "C:\\Users\\cem\\Documents\\GitHub\\gfgfg"  # Klasör yolunu buraya girin
 website_url = "https://avseetv2023.netlify.app"  # Web sitesi URL'sini buraya girin
-max_links_per_sitemap = 300  # Her sitemap dosyasındaki maksimum link sayısı
+max_links_per_sitemap = 14000  # Her sitemap dosyasındaki maksimum link sayısı
 
 create_sitemap(folder_path, website_url, max_links_per_sitemap)
